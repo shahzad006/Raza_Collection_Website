@@ -450,5 +450,211 @@ const products = [
     description:
       "<b>Heart ❤️ Perfume Gift 🎁 set pack of 2pcs</b><br>* 35ml perfume <br>* 200mp body spray <br>* Lasting no idea <br>* Box color different honge"
   }
+  ,
+
+
+   {
+    id: 28,
+
+    title: "Motia Flowers",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Motia  Flowers.jpeg",
+
+    description:
+      "<b>Motia  Flowers</b><br>* 25ml perfume Long lasting<br> <b>Most Demanding Long lasting fragrances Pure natural Motia and Fresh Motia Flowers fragrances</b>"
+  }
+  ,
+
+
+   {
+    id: 29,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml very Unbelievable </b>"
+  }
+  ,
+
+
+   {
+    id: 30,
+
+    title: "WIRELESS EARBUDS",
+
+    price: 4500,
+
+    category: "Accessories",
+
+    image: "images/accessories/Bluetooth Speakers.jpeg",
+
+    description:
+      "<b>BLUK’S BX-178 Bluetooth Speaker with Powerful 20W Sound</b> <br>* 2400mAh Battery<br>* Bass Blaster<br>* TWS Connection<br>*  Bluetooth Wireless<br>* FM Radio<br>* Included Mic<br>* AUX Input & USB/TF Card Support (Box Pack) "
+  }
+  ,
+
+  {
+    id: 31,
+
+    title: "UNIVERSE POINT ORIGINAL WATCH",
+
+    price: 2000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/NEW ARRIVAL 4.jpeg",
+
+    description:
+      "(Mens Collection)<br>* Quartz Machine <br>* Slim case <br>* Leather strap  <br>* Stainless steel back <br>* Different Colours"
+  }
+  ,
+
+  {
+    id: 32,
+
+    title: "CURREN Men’s Premium Strap Watch",
+
+    price: 1000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/CURREN Men.jpeg",
+
+    description:
+      "* tylish Black Dial <br>* Chronometer Design <br>* Comfortable Strap<br>*  Elegant Finish & Classic Casual Look (Box Not Included in this Price)"
+  }
+  ,
+
+
+   {
+    id: 33,
+
+    title: "Original 4me",
+
+    price: 1050,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/4me.jpeg",
+
+    description:
+      "<b>200ml pack of 4pcs 2000/= each</b>"
+  }
+  ,
+
+
+   {
+    id: 34,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 2.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml </b>"
+  }
+
+  ,
+
+   {
+    id: 35,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 3.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+  }
+  ,
+
+   {
+    id: 36,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 4.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+  }
+  ,
+
+   {
+    id: 37,
+
+    title: "Marj by Ahmed Al magribi Dubai  famous",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Marj by Ahmed Al magribi Dubai  famous.jpeg",
+
+    description:
+      "<b>Marj by Ahmed Al magribi Dubai  famous & most demanding branded same fragrance 25ml long lasting for men</b>"
+  }
+  ,
+
+   {
+    id: 38,
+
+    title: "Gucci Flora",
+
+    price: 1700,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Gucci Flora.jpeg",
+
+    description:
+      "<b>Original Gucci Flora Long lasting Perfume 50ml 24 hrs long lasting for men women</b>"
+  }
+  ,
+
+   {
+    id: 39,
+
+    title: "Dirham",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Dirham.jpeg",
+
+    description:
+      "<b>Deal of Black for men  favourite</b> <br>* Pack of 4pcs Perfume Deal <br>* 3ml Non alcoholic attar <br>* 20ml Pocket perfume <br>* 100ml perfume <br>* 200ml Body Spray"
+  }
 
 ];
+
+
+
+
+
+
+
+
