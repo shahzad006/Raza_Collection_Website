@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>Product Details - RazaCollection</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css">
+
+</head>
+
+
+<body class="bg-slate-50">
+
+
+  <!-- NAVBAR -->
+
+  <header class="bg-white border-b">
+
+    <nav
+      class="max-w-7xl mx-auto px-4">
+
+      <div
+        class="h-16 flex items-center justify-between">
+
+        <a
+          href="index.html"
+          class="text-2xl font-bold text-[#d4af37] ">
+
+          Raza<span class="text-slate-900">
+            Collection
+          </span>
+
+        </a>
+
+
+        <a
+          href="index.html"
+          class="text-sm font-semibold">
+
+          ← Back to Store
+
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- PRODUCT DETAIL -->
+
+  <main class="max-w-7xl mx-auto px-4 py-12">
+
+
+    <div
+      id="productDetails"
+      class="bg-white rounded-2xl p-6 md:p-10 grid md:grid-cols-2 gap-10">
+
+    </div>
+
+
+  </main>
+
+
+  <!-- ----------------------------------------------------------------------- -->
+
+  <script>
+  const whatsappNumber = "923011240292";
+
+  const product = JSON.parse(
+    localStorage.getItem("selectedProduct")
+  );
+
+  const container = document.getElementById("productDetails");
+
+  // Format Price
+  function formatPrice(price) {
+    return new Intl.NumberFormat("en-PK").format(price);
+  }
+
+  if (!product) {
+    container.innerHTML = `
+      <div class="col-span-full text-center py-20">
+        <h2 class="text-2xl font-bold">
+          Product Not Found
+        </h2>
+
+        <a
+          href="index.html"
+          class="inline-block mt-5 bg-blue-600 text-white px-6 py-3 rounded-lg">
+          Back to Store
+        </a>
+      </div>
+    `;
+  } else {
+
+    container.innerHTML = `
+      <!-- IMAGE -->
+      <div
+        class="bg-slate-100 rounded-2xl p-6 flex items-center justify-center">
+
+        <img
+          src="${product.image}"
+          alt="${product.title}"
+          class="max-h-[500px] w-full object-contain">
+
+      </div>
+
+
+      <!-- INFO -->
+      <div class="flex flex-col justify-center">
+
+        <span
+          class="text-blue-600 font-semibold uppercase text-sm">
+          ${product.category}
+        </span>
+
+        <h1
+          class="text-3xl md:text-5xl font-bold mt-3">
+          ${product.title}
+        </h1>
+
+        <p
+          class="text-3xl font-extrabold text-blue-600 mt-6">
+          Rs. ${formatPrice(product.price)}
+        </p>
+
+        <p
+          class="text-slate-600 leading-relaxed mt-6">
+          ${product.description}
+        </p>
+
+        <button
+          onclick="buyProduct()"
+          class="mt-8 bg-[#d4af37] hover:bg-[#b8941f] text-white py-4 rounded-xl font-bold text-lg">
+
+          💬 Buy Now on WhatsApp
+
+        </button>
+
+      </div>
+    `;
+  }
+
+
+  // WhatsApp Order
+  function buyProduct() {
+
+    if (!product) return;
+
+    const message =
+      `✨ *RAZA COLLECTION* ✨\n` +
+      `━━━━━━━━━━━━━━━━━━\n\n` +
+      `🛍️ *Order Inquiry*\n\n` +
+      `📦 *Product:* ${product.title}\n` +
+      `💰 *Price:* Rs. ${formatPrice(product.price)}\n` +
+      `🏷️ *Category:* ${product.category}\n\n` +
+      `━━━━━━━━━━━━━━━━━━\n` +
+      `👑 *Premium Shopping Experience*\n\n` +
+      `Hello! I’m interested in purchasing this product.\n` +
+      `Kindly share the available *payment methods* and *delivery details* to proceed with my order.\n\n` +
+      `Thank you! ✨\n` +
+      `*RAZA COLLECTION — Online Shopping*`;
+
+
+    const url =
+      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+
+    // Open WhatsApp
+    window.open(url, "_blank");
+  }
+</script>
+  
+
+
+</body>
+
+</html>

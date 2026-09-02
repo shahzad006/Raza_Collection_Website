@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Raza Collection Store</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <meta
+    name="description"
+    content="Shop latest mobiles, laptops, accessories and smart devices."
+  >
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- NAVBAR -->
+  <header class="bg-white border-b sticky top-0 z-50">
+
+    <nav class="max-w-7xl mx-auto px-4 ">
+
+      <div class="h-16 flex items-center justify-between">
+
+        <a href="index.html"
+           class="text-2xl font-bold text-[#d4af37]">
+          Raza<span class="text-slate-900"> Collection</span>
+        </a>
+
+        <div class="hidden md:flex gap-8">
+
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+
+        </div>
+
+        <button
+          id="menuBtn"
+          class="md:hidden text-2xl">
+          ☰
+        </button>
+
+      </div>
+
+      <!-- MOBILE MENU -->
+
+      <div id="mobileMenu"
+           class="hidden md:hidden pb-4">
+
+        <div class="flex flex-col gap-4 ">
+
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <section class="hero-banner">
+
+    <div class="hero-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="hero-content">
+
+            <span class="hero-subtitle">
+                LATEST TECHNOLOGY
+            </span>
+
+            <h1>
+                Upgrade Your
+                <span>Digital Life</span>
+            </h1>
+
+            <p>
+                Discover the latest smartphones, laptops,
+                accessories and smart devices.
+            </p>
+
+            <a href="#products" class="hero-btn">
+                Shop Now
+                <span>→</span>
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT WATCH IMAGE -->
+        <div class="hero-watch">
+
+            <img
+                src="images/banner-watch.png"
+                alt="Luxury Watch"
+            >
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ----------------------------------------------------------------------- -->
+
+
+  <!-- CATEGORIES -->
+
+  <section id="categories" class="py-16">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="text-center mb-10">
+
+        <p class="text-blue-600 font-semibold">
+          SHOP BY CATEGORY
+        </p>
+
+        <h2 class="text-3xl font-bold mt-2">
+          Explore Categories
+        </h2>
+
+      </div>
+
+
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+
+
+        <button
+          onclick="filterProducts('Watches')"
+          class="category-card">
+
+          <span>⌚</span>
+          <h3>Watches</h3>
+          <p>Smart technology</p>
+
+        </button>
+
+
+
+        <button
+          onclick="filterProducts('Accessories')"
+          class="category-card">
+
+          <span>🎧</span>
+          <h3>Accessories</h3>
+          <p>Tech accessories</p>
+
+        </button>
+
+        
+        <button
+          onclick="filterProducts('Perfumes')"
+          class="category-card">
+
+          <span>🎁</span>
+          <h3>Beauty & Gifts</h3>
+          <p>Perfumes, Body Sprays & Gifts</p>
+
+        </button>
+
+
+        
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRODUCTS -->
+
+  <section
+    id="products"
+    class="py-16 bg-white">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div
+        class="flex justify-between items-end mb-10">
+
+        <div>
+
+          <p class="text-blue-600 font-semibold">
+            OUR PRODUCTS
+          </p>
+
+          <h2 class="text-3xl font-bold mt-2">
+            Featured Products
+          </h2>
+
+        </div>
+
+        <button
+          onclick="showAllProducts()"
+          class="hidden sm:block bg-slate-100 px-5 py-2 rounded-lg">
+
+          View All
+
+        </button>
+
+      </div>
+
+
+      <!-- PRODUCTS WILL LOAD HERE -->
+
+      <div
+        id="productGrid"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+
+  <!-- ----------------------------------------------------------------------- -->
+
+  <!-- Contact Section -->
+<section id="contact" class="bg-[#0f172a] py-16 sm:py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white">
+        Get In Touch
+      </h2>
+
+      <p class="mt-3 text-base sm:text-lg text-slate-400">
+        Have a question? We're here to help.
+      </p>
+    </div>
+
+    <!-- Contact Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+
+      <!-- Left: Contact Details -->
+      <div class="bg-[#111c33] rounded-2xl p-6 sm:p-8 border border-slate-700">
+
+        <h3 class="text-2xl font-bold text-white mb-6">
+          Contact Information
+        </h3>
+
+        <div class="space-y-6">
+
+          <!-- Name -->
+          <div class="flex items-start gap-4">
+            <div class="w-11 h-11 shrink-0 rounded-lg bg-[#d4af37]/10
+                        flex items-center justify-center text-[#d4af37] text-xl">
+              👤
+            </div>
+
+            <div>
+              <p class="text-sm text-slate-400">Name</p>
+              <p class="text-base sm:text-lg font-semibold text-white">
+                Muhammad Anas
+              </p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <div class="w-11 h-11 shrink-0 rounded-lg bg-[#d4af37]/10
+                        flex items-center justify-center text-[#d4af37] text-xl">
+              ✉️
+            </div>
+
+            <div class="min-w-0">
+              <p class="text-sm text-slate-400">Email</p>
+              <a
+                href="mailto:your@email.com"
+                class="text-base sm:text-lg font-semibold text-white
+                       hover:text-[#d4af37] transition break-all"
+              >
+                anasb6857@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="flex items-start gap-4">
+            <div class="w-11 h-11 shrink-0 rounded-lg bg-[#d4af37]/10
+                        flex items-center justify-center text-[#d4af37] text-xl">
+              📞
+            </div>
+
+            <div>
+              <p class="text-sm text-slate-400">Phone</p>
+              <a
+                href="tel:+923011240292"
+                class="text-base sm:text-lg font-semibold text-white
+                       hover:text-[#d4af37] transition"
+              >
+                +923011240292
+              </a>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="flex items-start gap-4">
+            <div class="w-11 h-11 shrink-0 rounded-lg bg-[#d4af37]/10
+                        flex items-center justify-center text-[#d4af37] text-xl">
+              📍
+            </div>
+
+            <div>
+              <p class="text-sm text-slate-400">Address</p>
+              <p class="text-base sm:text-lg font-semibold text-white">
+                House No. 215-cvi Upper Gizri Mohalla South Karachi
+              </p>
+            </div>
+          </div>
+
+          <!-- Timing -->
+          <div class="flex items-start gap-4">
+            <div class="w-11 h-11 shrink-0 rounded-lg bg-[#d4af37]/10
+                        flex items-center justify-center text-[#d4af37] text-xl">
+              🕐
+            </div>
+
+            <div>
+              <p class="text-sm text-slate-400">Business Hours</p>
+              <p class="text-base sm:text-lg font-semibold text-white">
+                Open Now 24/7
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a
+          href="https://wa.me/923011240292"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-8 w-full flex items-center justify-center gap-3
+                 bg-[#d4af37] hover:bg-[#c19d2f]
+                 text-white font-bold
+                 py-3.5 px-6 rounded-xl
+                 transition duration-300
+                 hover:shadow-lg"
+        >
+          <span class="text-xl">💬</span>
+          Chat With Us on WhatsApp
+        </a>
+
+      </div>
+
+
+      <!-- Right: Map -->
+      <div class="rounded-2xl overflow-hidden border border-slate-700
+                  min-h-[350px] lg:min-h-full">
+
+        <iframe
+          src="https://www.google.com/maps?q=Pakistan&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0; min-height:350px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+   <!-- ----------------------------------------------------------------------- -->
+
+  
+  <!-- FOOTER -->
+
+  <footer
+    class="bg-black text-slate-400 py-6 text-center">
+
+    © 2026 RazaCollection. All Rights Reserved.
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
