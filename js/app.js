@@ -93,7 +93,7 @@ function renderProducts(productList) {
       <div class="p-5">
 
         <span
-          class="text-xs font-semibold text-blue-600 uppercase">
+          class="text-xs font-semibold  text-[#d4af37] uppercase">
 
           ${product.category}
 
@@ -109,7 +109,7 @@ function renderProducts(productList) {
 
 
         <p
-          class="text-xl font-extrabold mt-3">
+          class="text-sm font-medium mt-3">
 
           Rs. ${formatPrice(product.price)}
 

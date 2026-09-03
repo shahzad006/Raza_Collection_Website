@@ -11,6 +11,7 @@
     name="description"
     content="Shop latest mobiles, laptops, accessories and smart devices."
   >
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -33,13 +34,14 @@
           Raza<span class="text-slate-900"> Collection</span>
         </a>
 
-        <div class="hidden md:flex gap-8">
+        <div class="hidden md:flex gap-8 navs">
 
-          <a href="#home">Home</a>
-          <a href="#categories">Categories</a>
-          <a href="#products">Products</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" class="nav">Home</a>
+          <a href="#categories" class="nav">Categories</a>
+          <a href="#products" class="nav">Products</a>
+          <!-- <a href="#sale" class="nav-link">Sale</a> -->
+          <a href="#reviews" class="nav">Reviews</a>
+          <a href="#contact" class="nav">Contact</a>
 
         </div>
 
@@ -126,7 +128,7 @@
 
       <div class="text-center mb-10">
 
-        <p class="text-blue-600 font-semibold">
+        <p class="text-[#d4af37] font-semibold">
           SHOP BY CATEGORY
         </p>
 
@@ -198,7 +200,7 @@
 
         <div>
 
-          <p class="text-blue-600 font-semibold">
+          <p class="text-[#d4af37] font-semibold">
             OUR PRODUCTS
           </p>
 
@@ -210,7 +212,7 @@
 
         <button
           onclick="showAllProducts()"
-          class="hidden sm:block bg-slate-100 px-5 py-2 rounded-lg">
+          class="hidden sm:block bg-slate-100 px-5 py-2 rounded-lg  text-[#d4af37]">
 
           View All
 
@@ -232,6 +234,8 @@
   </section>
 
 
+
+
   <!-- ----------------------------------------------------------------------- -->
    <!-- ========================================
      CUSTOMER REVIEWS SECTION
@@ -244,11 +248,11 @@
     <!-- Section Heading -->
     <div class="text-center mb-8">
 
-      <p class="text-[10px] font-semibold text-blue-600 uppercase tracking-wider mb-1">
+      <p class="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-1">
         Customer Reviews
       </p>
 
-      <h2 class="text-xl md:text-2xl font-bold text-[#0b1426]">
+      <h2 class="text-xl md:text-2xl font-bold text-[#d4af37]">
         What Our Customers Say
       </h2>
 
@@ -285,7 +289,7 @@
           </div>
 
           <div>
-            <h4 class="font-semibold text-[#0b1426] text-sm">
+            <h4 class="font-semibold text-[#d4af37] text-sm">
               Muhammad Shahzad
             </h4>
 
@@ -321,7 +325,7 @@
           </div>
 
           <div>
-            <h4 class="font-semibold text-[#0b1426] text-sm">
+            <h4 class="font-semibold text-[#d4af37] text-sm">
               Sohaib Khan
             </h4>
 
@@ -357,7 +361,7 @@
           </div>
 
           <div>
-            <h4 class="font-semibold text-[#0b1426] text-sm">
+            <h4 class="font-semibold text-[#d4af37] text-sm">
               Muhammad Zahid
             </h4>
 
@@ -392,7 +396,7 @@
           </div>
 
           <div>
-            <h4 class="font-semibold text-[#0b1426] text-sm">
+            <h4 class="font-semibold text-[#d4af37] text-sm">
               Zara Khan
             </h4>
 
@@ -430,7 +434,7 @@
 
     <!-- Section Heading -->
     <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl font-bold text-white">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#d4af37]">
         Get In Touch
       </h2>
 
@@ -445,7 +449,7 @@
       <!-- Left: Contact Details -->
       <div class="bg-[#111c33] rounded-2xl p-6 sm:p-8 border border-slate-700">
 
-        <h3 class="text-2xl font-bold text-white mb-6">
+        <h3 class="text-2xl font-bold text-[#d4af37] mb-6">
           Contact Information
         </h3>
 
@@ -542,8 +546,8 @@
           target="_blank"
           rel="noopener noreferrer"
           class="mt-8 w-full flex items-center justify-center gap-3
-                 bg-[#d4af37] hover:bg-[#c19d2f]
-                 text-white font-bold
+                 bg-[#d4af37] hover:bg-[#c19d2f] hover:text-white
+                 text-dark font-bold
                  py-3.5 px-6 rounded-xl
                  transition duration-300
                  hover:shadow-lg"
