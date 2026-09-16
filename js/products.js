@@ -693,6 +693,21 @@ const products = [
     description:
       "<b>W18 Ultra Smart Watch</b><br>* charger & With Chain Belt (Gift Box For Him&Her) 🎁 (Box Pack) (Random Colours) "
   }
+  ,
+  {
+    id: 43,
+
+    title: "I20 ULTRA MAX SUIT * 7in1 Ultra",
+
+    price: 2550,
+
+    category: "Watches",
+
+    image: "images/smart-devices/watch.jpeg",
+
+    description:
+      "<b>I20 ULTRA MAX SUIT * 7in1 Ultra</b><br>* Wireless EarBuds Model Smart Watch with Charger(🎁 Gift Box Pack) (Random Colours) (Lootlo Offer🔥)"
+  }
 
 ];
 
