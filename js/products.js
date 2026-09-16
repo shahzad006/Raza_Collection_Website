@@ -776,6 +776,21 @@ const products = [
     description:
       "<b>C6 Ultra 2 Smart Watch ⌚️ with Headphones</b> <br>* Box Pack with Charger 🔌 (Randoms Colours) "
   }
+  ,
+  {
+    id: 48,
+
+    title: "Rolex Arabic watch",
+
+    price: 6000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex Arabic watch.jpeg",
+
+    description:
+      "<b>Rolex Arabic watch</b><br>* Automatic watch movement <br>* Stainless steel chain"
+  }
 
 ];
 
