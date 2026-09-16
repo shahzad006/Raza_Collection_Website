@@ -648,6 +648,21 @@ const products = [
     description:
       "<b>Deal of Black for men  favourite</b> <br>* Pack of 4pcs Perfume Deal <br>* 3ml Non alcoholic attar <br>* 20ml Pocket perfume <br>* 100ml perfume <br>* 200ml Body Spray"
   }
+  ,
+  {
+    id: 40,
+
+    title: "Ladies Watch",
+
+    price: 2200,
+
+    category: "Watches",
+
+    image: "images/smart-devices/A58 PLUS LADIES.jpeg",
+
+    description:
+      "<b>Ladies Gift Set Collection</b><br>* Beautiful LED Display Stones Watch <br>* Golden And Silver Plated Micro Zircon Work Heart Deisgn Combo Set With Adjustable Bracelets<br>*  Same Jewellery Orgainizer Gift Box (Random Colours)"
+  }
 
 ];
 
