@@ -742,6 +742,23 @@ const products = [
     description:
       "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging In PD/Usb Both, Powerbank With 2 Built in Cables 1 Usb Port & 1 Type C Port (Box Pack) (Beast Model) <br>* One Week Checking Warranty"
   }
+  ,
+
+
+   {
+    id: 46,
+
+    title: "20W USB-C Power Adapter",
+
+    price: 1500,
+
+    category: "Accessories",
+
+    image: "images/accessories/20W USB-C Power Adapte.jpeg",
+
+    description:
+      "<b>20W USB-C Power Adapter</b> <br>* Lightning to USB-C Cable with 20W Fast Charging<br>* USB-C Output Port, Lightning to USB-C Cable,, Safe & Reliable Charging <br>* Compact & Travel-Friendly Design (Box Pack)"
+  }
 
 ];
 
