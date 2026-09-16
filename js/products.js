@@ -725,6 +725,23 @@ const products = [
     description:
       "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging Powerbank With 2 USB Port/ 1 Type C Port & 1 Android Port (Box Pack) (Beast Model) 🔥"
   }
+  ,
+
+
+   {
+    id: 45,
+
+    title: " FoneStop 20,000MAH SuperFast",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/FoneStop Powerbank.jpeg",
+
+    description:
+      "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging In PD/Usb Both, Powerbank With 2 Built in Cables 1 Usb Port & 1 Type C Port (Box Pack) (Beast Model) <br>* One Week Checking Warranty"
+  }
 
 ];
 
