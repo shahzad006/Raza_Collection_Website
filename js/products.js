@@ -663,6 +663,21 @@ const products = [
     description:
       "<b>Ladies Gift Set Collection</b><br>* Beautiful LED Display Stones Watch <br>* Golden And Silver Plated Micro Zircon Work Heart Deisgn Combo Set With Adjustable Bracelets<br>*  Same Jewellery Orgainizer Gift Box (Random Colours)"
   }
+  ,
+  {
+    id: 41,
+
+    title: "IEKE Butterfly Women’s Watch ",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/IEKE Butterfly Women’s Watch.jpeg",
+
+    description:
+      "<b>IEKE Butterfly Women’s Watch</b><br>* Elegant Dial<br>* Premium Chain<br>* Stylish Butterfly-Inspired Design <br>*  Durable Stainless Steel Chain <br>* Butterfly Lock <br>*  Premium Finishing & Classy Everyday Look"
+  }
 
 ];
 
