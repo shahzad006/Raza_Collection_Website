@@ -759,6 +759,23 @@ const products = [
     description:
       "<b>20W USB-C Power Adapter</b> <br>* Lightning to USB-C Cable with 20W Fast Charging<br>* USB-C Output Port, Lightning to USB-C Cable,, Safe & Reliable Charging <br>* Compact & Travel-Friendly Design (Box Pack)"
   }
+  ,
+
+
+   {
+    id: 47,
+
+    title: "C6 Ultra 2 Smart Watch with Headphones",
+
+    price: 2500,
+
+    category: "Accessories",
+
+    image: "images/accessories/C6 Ultra 2 Smart Watch with Headphones.jpeg",
+
+    description:
+      "<b>C6 Ultra 2 Smart Watch ⌚️ with Headphones</b> <br>* Box Pack with Charger 🔌 (Randoms Colours) "
+  }
 
 ];
 
