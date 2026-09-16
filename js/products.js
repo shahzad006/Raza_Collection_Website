@@ -708,6 +708,23 @@ const products = [
     description:
       "<b>I20 ULTRA MAX SUIT * 7in1 Ultra</b><br>* Wireless EarBuds Model Smart Watch with Charger(🎁 Gift Box Pack) (Random Colours) (Lootlo Offer🔥)"
   }
+  ,
+
+
+   {
+    id: 44,
+
+    title: "FoneStop 20,000MAH",
+
+    price: 3300,
+
+    category: "Accessories",
+
+    image: "images/accessories/FoneStop.jpeg",
+
+    description:
+      "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging Powerbank With 2 USB Port/ 1 Type C Port & 1 Android Port (Box Pack) (Beast Model) 🔥"
+  }
 
 ];
 
