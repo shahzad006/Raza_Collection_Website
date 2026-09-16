@@ -678,6 +678,21 @@ const products = [
     description:
       "<b>IEKE Butterfly Women’s Watch</b><br>* Elegant Dial<br>* Premium Chain<br>* Stylish Butterfly-Inspired Design <br>*  Durable Stainless Steel Chain <br>* Butterfly Lock <br>*  Premium Finishing & Classy Everyday Look"
   }
+  ,
+  {
+    id: 42,
+
+    title: "W18 Ultra Smart Watch",
+
+    price: 2200,
+
+    category: "Watches",
+
+    image: "images/smart-devices/W18 Ultra Smart Watch.jpeg",
+
+    description:
+      "<b>W18 Ultra Smart Watch</b><br>* charger & With Chain Belt (Gift Box For Him&Her) 🎁 (Box Pack) (Random Colours) "
+  }
 
 ];
 
