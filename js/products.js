@@ -840,6 +840,21 @@ const products = [
     description:
       "<b>11 Max Smart Watch</b><br>* Super AMOLED Display,<br>* Bluetooth Calling <br>* Multiple Sports Modes <br>* Good Battery Life <br>* IP67 Water Resistant <br>* Wireless Charging <br>* Premium Design With Free Orange Ocean Belt (Box Pack)"
   }
+  ,
+  {
+    id: 52,
+
+    title: "Patek Philippe Semi-Automatic Watch",
+
+    price: 3000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Luxury Watch.jpeg",
+
+    description:
+      "<b>Patek Philippe Semi-Automatic Watch</b><br>*  Premium Stainless Steel Bracelet<br>* Semi-Automatic Movement <br>* Date Display<br>*Water Resistant Design<br>* Stylish Luxury Finish & Premium Build Quality"
+  }
 
 ];
 
