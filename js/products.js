@@ -825,6 +825,21 @@ const products = [
     description:
       "<b>HIGH QUALITY EARBUDS WITH ENVIRONMENTAL NOISE CANCELLATION(ENC) <br>*LOWER POWER CONSUMPTION<br>* PLAY MUSIC HIFI <br>* HIGH DEFINATION SOUND <br>* STRONG SOUND <br>* NEW DESIGN"
   }
+  ,
+  {
+    id: 51,
+
+    title: "11 Max Smart Watch",
+
+    price: 2500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex Arabic watch.jpeg",
+
+    description:
+      "<b>11 Max Smart Watch</b><br>* Super AMOLED Display,<br>* Bluetooth Calling <br>* Multiple Sports Modes <br>* Good Battery Life <br>* IP67 Water Resistant <br>* Wireless Charging <br>* Premium Design With Free Orange Ocean Belt (Box Pack)"
+  }
 
 ];
 
