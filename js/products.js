@@ -808,6 +808,23 @@ const products = [
     description:
       "<b>BLUKS BX-AIRPRO 3 White</b> <br>* BLUKS BX-AIRPRO 3 WIRELESS EARBUDS (ANC + ENC) WITH BUZZER/LANYARD <br>*  ANC + ENC Technology <br>* Fast & Stable Connectivity <br>* Long Battery Life <br>* Smart Touch / Button Controls <br>* WHITE EDITION <br>* VVIP QUALITY <br>* (ONE YEAR WARRANTY)"
   }
+  ,
+
+
+   {
+    id: 50,
+
+    title: "ROYAL X RBT-825",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/ROYAL X RBT-825.jpeg",
+
+    description:
+      "<b>HIGH QUALITY EARBUDS WITH ENVIRONMENTAL NOISE CANCELLATION(ENC) <br>*LOWER POWER CONSUMPTION<br>* PLAY MUSIC HIFI <br>* HIGH DEFINATION SOUND <br>* STRONG SOUND <br>* NEW DESIGN"
+  }
 
 ];
 
