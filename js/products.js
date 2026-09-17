@@ -835,7 +835,7 @@ const products = [
 
     category: "Watches",
 
-    image: "images/smart-devices/Rolex Arabic watch.jpeg",
+    image: "images/smart-devices/Watch 11 Max Smart.jpeg",
 
     description:
       "<b>11 Max Smart Watch</b><br>* Super AMOLED Display,<br>* Bluetooth Calling <br>* Multiple Sports Modes <br>* Good Battery Life <br>* IP67 Water Resistant <br>* Wireless Charging <br>* Premium Design With Free Orange Ocean Belt (Box Pack)"
