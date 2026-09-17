@@ -791,6 +791,23 @@ const products = [
     description:
       "<b>Rolex Arabic watch</b><br>* Automatic watch movement <br>* Stainless steel chain"
   }
+  ,
+
+
+   {
+    id: 49,
+
+    title: "BLUKS BX-AIRPRO 3 White",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/BLUKS BX-AIRPRO 3.jpeg",
+
+    description:
+      "<b>BLUKS BX-AIRPRO 3 White</b> <br>* BLUKS BX-AIRPRO 3 WIRELESS EARBUDS (ANC + ENC) WITH BUZZER/LANYARD <br>*  ANC + ENC Technology <br>* Fast & Stable Connectivity <br>* Long Battery Life <br>* Smart Touch / Button Controls <br>* WHITE EDITION <br>* VVIP QUALITY <br>* (ONE YEAR WARRANTY)"
+  }
 
 ];
 
