@@ -855,6 +855,23 @@ const products = [
     description:
       "<b>Patek Philippe Semi-Automatic Watch</b><br>*  Premium Stainless Steel Bracelet<br>* Semi-Automatic Movement <br>* Date Display<br>*Water Resistant Design<br>* Stylish Luxury Finish & Premium Build Quality"
   }
+  ,
+
+
+   {
+    id: 53,
+
+    title: "BLUKS BX 607",
+
+    price: 4300,
+
+    category: "Accessories",
+
+    image: "images/accessories/BLUKS BX 607.jpeg",
+
+    description:
+      "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
+  }
 
 ];
 
