@@ -516,3 +516,28 @@ color: #0B1220;
 
 
 /* -------------------------------------------------------------------------- */
+
+
+/* SEE MORE / SEE LESS PRODUCTS BUTTON */
+
+.see-more-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px;
+    padding: 11px 24px;
+    border-radius: 8px;
+    border: 1px solid #D4AF37;
+    background: #D4AF37;
+    color: #0B1220;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.see-more-btn:hover {
+    background: #B8941F;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.20);
+}
