@@ -605,17 +605,23 @@ const products = [
    {
     id: 35,
 
-    title: "long lasting perfume ",
+    title: "Abaya Collection",
 
-    price: 1200,
+    price: 5000,
 
-    category: "Perfumes",
+    category: "Clothings",
 
-    image: "images/Perfumes/long lasting perfume 3.jpeg",
-
+    images: [
+    "images/Clothing/MODERN ABAYA Item 1.jpeg",
+    "images/Clothing/MODERN ABAYA Item 2.jpeg",
+],
+  
     description:
-      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+      "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Zoom Nida<br><b>Work:</b> Cut Dana Hand Work<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br>"
   }
+
+
+
   ,
 
    {
@@ -1095,6 +1101,40 @@ const products = [
   
     description:
       "<b>Premium 4 Piece Abaya Set</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Korean Georgette<br><b>Set Includes:</b> Abaya, Matching Staller, Matching Bag & Skirt<br><b>Skirt:</b> 2 Side Pockets<br><b>Style:</b> Maxi Style & Baggy Style<br><b>Look:</b> Beautiful Fall & Flowy Look<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25"
+  }
+  
+  ,
+
+   {
+    id: 64,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 3.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+  }
+
+
+  ,
+  {
+    id: 65,
+
+    title: "Hand Work Abaya",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/abaya.jpeg",
+
+    description:
+       "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Crush Nida<br><b>Work:</b> Cut Dana Hand Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
 
