@@ -904,6 +904,23 @@ const products = [
     description:
       "<b>Bx-171 Rockstar Portable Speaker<br>*Powerfull Sound with Long Battery Life Tf Card Support (Box Pack)"
   }
+  ,
+
+
+   {
+    id: 56,
+
+    title: "ABAYA COLLECTION ",
+
+    price: 3500,
+
+    category: "Clothing",
+
+    image: "images/Clothing/ABAYA 1.jpeg",
+
+    description:
+      "<b>INTRODUCING OUR LATEST ABAYA COLLECTION<br>*DUBAI STYLE ABAYA <br>* FRONT OPEN <br>* SIZE : <br> 1) LENGTH : 54/55/56 <br> 2) CHEST : 25 <br>* <b> STALLER NOT INCLUDED <b/>"
+  }
 
 ];
 
