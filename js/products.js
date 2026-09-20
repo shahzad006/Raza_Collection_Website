@@ -887,6 +887,23 @@ const products = [
     description:
       "<b>Breitling Sports Watch</b><br>* Black Dial<br>* Premium Silicone Strap<br>* Multiple Attractive Colours<br>* Sporty Design,, Durable Build<br>* Precise Quartz Movement & Comfortable Everyday Wear"
   }
+  ,
+
+
+   {
+    id: 55,
+
+    title: "Bx-171 Rockstar Portable Speaker",
+
+    price: 2000,
+
+    category: "Accessories",
+
+    image: "images/accessories/Bx-171 Rockstar Portable Speaker.jpeg",
+
+    description:
+      "<b>Bx-171 Rockstar Portable Speaker<br>*Powerfull Sound with Long Battery Life Tf Card Support (Box Pack)"
+  }
 
 ];
 
