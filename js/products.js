@@ -872,6 +872,21 @@ const products = [
     description:
       "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
   }
+  ,
+  {
+    id: 54,
+
+    title: "Breitling Sports Watch",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Breitling Sports Watch.jpeg",
+
+    description:
+      "<b>Breitling Sports Watch</b><br>* Black Dial<br>* Premium Silicone Strap<br>* Multiple Attractive Colours<br>* Sporty Design,, Durable Build<br>* Precise Quartz Movement & Comfortable Everyday Wear"
+  }
 
 ];
 
