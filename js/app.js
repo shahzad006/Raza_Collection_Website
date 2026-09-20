@@ -56,6 +56,21 @@ function buyOnWhatsApp(product) {
 
 /*
 ================================
+PRODUCT IMAGE
+================================
+*/
+
+function getProductImage(product) {
+  if (Array.isArray(product.images) && product.images.length > 0) {
+    return product.images[0];
+  }
+
+  return product.image || "";
+}
+
+
+/*
+================================
 PRODUCT CARDS
 ================================
 */
@@ -91,7 +106,7 @@ function renderProducts(productList) {
       <div class="overflow-hidden">
 
         <img
-          src="${product.image}"
+          src="${getProductImage(product)}"
           alt="${product.title}"
           class="product-image"
         >
@@ -195,7 +210,7 @@ function showAllProducts() {
       <div class="overflow-hidden">
 
         <img
-          src="${product.image}"
+          src="${getProductImage(product)}"
           alt="${product.title}"
           class="product-image"
         >

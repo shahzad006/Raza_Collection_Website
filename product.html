@@ -1,717 +1,398 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
 
+  <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
 
-<title>Product Details - Raza Collection</title>
+  <title>Product Details - RazaCollection</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<meta
-    name="description"
-    content="View product details and order from Raza Collection."
->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-<link rel="icon" type="image/png" href="images/logo.png">
-
-<!-- Google Font -->
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+  <link
     rel="stylesheet"
->
-
-<!-- Tailwind -->
-<script src="https://cdn.tailwindcss.com"></script>
-
-<!-- Main CSS -->
-<link rel="stylesheet" href="css/style.css">
+    href="css/style.css">
 
 
-<style>
-
-    /* =========================================
-       PRODUCT DETAILS PAGE
-    ========================================= */
-
-    .product-detail-page {
-        min-height: calc(100vh - 64px);
-        background:
-            linear-gradient(
-                135deg,
-                #f8fafc 0%,
-                #ffffff 50%,
-                #f8fafc 100%
-            );
+  <style>
+    .product-thumbnail {
+      width: 78px;
+      height: 78px;
+      flex: 0 0 auto;
+      padding: 4px;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      background: #fff;
+      cursor: pointer;
+      overflow: hidden;
+      transition: .25s ease;
     }
 
-
-    /* Main Card */
-
-    .product-detail-card {
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        border-radius: 24px;
-        overflow: hidden;
-
-        box-shadow:
-            0 20px 60px rgba(15, 23, 42, 0.08);
+    .product-thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
     }
 
-
-    /* Product Image Area */
-
-    .product-detail-image-box {
-        min-height: 520px;
-
-        background:
-            radial-gradient(
-                circle at center,
-                #ffffff 0%,
-                #f8fafc 60%,
-                #eef2f7 100%
-            );
-
-        border-radius: 20px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        padding: 35px;
-
-        position: relative;
-        overflow: hidden;
+    .product-thumbnail:hover {
+      border-color: #d4af37;
+      transform: translateY(-2px);
     }
 
-
-    .product-detail-image-box::before {
-        content: "";
-
-        position: absolute;
-
-        width: 260px;
-        height: 260px;
-
-        border-radius: 50%;
-
-        background: rgba(212, 175, 55, 0.08);
-
-        filter: blur(5px);
+    .product-thumbnail.active-thumbnail {
+      border-color: #d4af37;
+      box-shadow: 0 0 0 2px rgba(212,175,55,.15);
+    }
+ 
+    html,
+    body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
     }
 
-
-    .product-detail-image {
-        width: 100%;
-        height: 450px;
-
-        object-fit: contain;
-
-        position: relative;
-        z-index: 1;
-
-        transition: transform 0.4s ease;
-
-        filter:
-            drop-shadow(
-                0 25px 30px rgba(15, 23, 42, 0.18)
-            );
+    #productDetails,
+    #productDetails > div {
+      min-width: 0;
+      max-width: 100%;
     }
 
-
-    .product-detail-image:hover {
-        transform: scale(1.04);
+    #productDetails img {
+      max-width: 100%;
     }
 
-
-    /* Category */
-
-    .product-detail-category {
-        display: inline-flex;
-
-        align-items: center;
-
-        padding: 7px 13px;
-
-        border-radius: 999px;
-
-        background: #f8f3e3;
-
-        color: #b8941f;
-
-        font-size: 12px;
-
-        font-weight: 700;
-
-        letter-spacing: 0.8px;
-
-        text-transform: uppercase;
+    #mainProductImage {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: contain;
     }
 
-
-    /* Product Title */
-
-    .product-detail-title {
-        color: #0b1220;
-
-        font-size: clamp(30px, 4vw, 48px);
-
-        line-height: 1.15;
-
-        font-weight: 700;
-
-        margin-top: 18px;
+    .product-gallery-thumbnails {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: thin;
     }
-
-
-    /* Price */
-
-    .product-detail-price {
-        color: #d4af37;
-
-        font-size: clamp(27px, 3vw, 36px);
-
-        font-weight: 700;
-
-        margin-top: 22px;
-    }
-
-
-    /* Description */
-
-    .product-detail-description {
-        color: #64748b;
-
-        font-size: 16px;
-
-        line-height: 1.8;
-
-        margin-top: 20px;
-    }
-
-
-    /* WhatsApp Button */
-
-    .product-whatsapp-btn {
-        width: 100%;
-
-        display: flex;
-
-        align-items: center;
-        justify-content: center;
-
-        gap: 10px;
-
-        margin-top: 30px;
-
-        padding: 16px 22px;
-
-        background: #d4af37;
-
-        color: #0b1220;
-
-        border: 1px solid #d4af37;
-
-        border-radius: 12px;
-
-        font-size: 16px;
-
-        font-weight: 700;
-
-        cursor: pointer;
-
-        transition:
-            transform 0.3s ease,
-            background 0.3s ease,
-            box-shadow 0.3s ease;
-    }
-
-
-    .product-whatsapp-btn:hover {
-        background: #b8941f;
-
-        color: #ffffff;
-
-        transform: translateY(-2px);
-
-        box-shadow:
-            0 12px 30px rgba(212, 175, 55, 0.25);
-    }
-
-
-    /* Back Button */
-
-    .back-store-btn {
-        display: inline-flex;
-
-        align-items: center;
-
-        gap: 7px;
-
-        color: #b8941f;
-
-        font-size: 14px;
-
-        font-weight: 600;
-
-        text-decoration: none;
-
-        transition: 0.3s ease;
-    }
-
-
-    .back-store-btn:hover {
-        color: #0b1220;
-
-        transform: translateX(-3px);
-    }
-
-
-    /* Product Info Divider */
-
-    .product-info-divider {
-        width: 100%;
-
-        height: 1px;
-
-        background: #e2e8f0;
-
-        margin-top: 25px;
-    }
-
-
-    /* Small Info */
-
-    .product-trust-box {
-        margin-top: 18px;
-
-        padding: 14px 16px;
-
-        background: #fafafa;
-
-        border: 1px solid #eef2f7;
-
-        border-radius: 12px;
-
-        color: #64748b;
-
-        font-size: 12px;
-
-        line-height: 1.6;
-    }
-
-
-    .product-trust-box strong {
-        color: #0b1220;
-    }
-
-
-    /* =========================================
-       MOBILE
-    ========================================= */
 
     @media (max-width: 767px) {
+      main {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        padding-top: 20px !important;
+        padding-bottom: 24px !important;
+        box-sizing: border-box;
+      }
 
-        .product-detail-page {
-            min-height: auto;
-        }
+      #productDetails {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 14px !important;
+        gap: 24px !important;
+        overflow: hidden;
+      }
 
+      #productDetails > div {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
 
-        .product-detail-card {
-            border-radius: 16px;
+      #productDetails > div:first-child {
+        overflow: hidden;
+      }
 
-            box-shadow:
-                0 10px 30px rgba(15, 23, 42, 0.06);
-        }
+      #productDetails > div:first-child > div:first-child {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 8px !important;
+      }
 
+      #mainProductImage {
+        width: 100%;
+        height: auto;
+        max-height: 420px;
+        object-fit: contain;
+      }
 
-        .product-detail-image-box {
-            min-height: 330px;
+      .product-gallery-thumbnails {
+        display: flex;
+        gap: 8px;
+        margin-top: 10px;
+        padding-bottom: 4px;
+      }
 
-            padding: 20px;
+      .product-thumbnail {
+        width: 64px;
+        height: 64px;
+        flex: 0 0 64px;
+      }
 
-            border-radius: 14px;
-        }
+      #productDetails h1 {
+        font-size: 28px !important;
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
 
+      #productDetails p {
+        overflow-wrap: anywhere;
+      }
 
-        .product-detail-image {
-            height: 300px;
+      #productDetails button:not(.product-thumbnail) {
+        max-width: 100%;
+        box-sizing: border-box;
+      }
 
-            max-width: 100%;
+      header nav {
+        width: 100%;
+        box-sizing: border-box;
+      }
 
-            object-fit: contain;
-        }
+      header nav > div {
+        min-width: 0;
+        gap: 8px;
+      }
 
+      header nav > div > a:first-child {
+        font-size: 20px !important;
+        white-space: nowrap;
+      }
 
-        .product-detail-title {
-            font-size: 28px;
-
-            margin-top: 14px;
-        }
-
-
-        .product-detail-price {
-            font-size: 27px;
-
-            margin-top: 16px;
-        }
-
-
-        .product-detail-description {
-            font-size: 14px;
-
-            line-height: 1.7;
-
-            margin-top: 16px;
-        }
-
-
-        .product-whatsapp-btn {
-            padding: 14px 16px;
-
-            font-size: 14px;
-
-            margin-top: 22px;
-        }
-
+      header nav > div > a:last-child {
+        font-size: 12px !important;
+        white-space: nowrap;
+      }
     }
 
+     </style>
 
-    /* =========================================
-       SMALL MOBILE
-    ========================================= */
-
-    @media (max-width: 480px) {
-
-        .product-detail-image-box {
-            min-height: 280px;
-
-            padding: 15px;
-        }
-
-
-        .product-detail-image {
-            height: 250px;
-        }
-
-
-        .product-detail-title {
-            font-size: 25px;
-        }
-
-
-        .product-detail-price {
-            font-size: 25px;
-        }
-
-
-        .product-detail-description {
-            font-size: 13px;
-        }
-
-    }
-
-</style>
 
 </head>
 
+
 <body class="bg-slate-50">
 
-<!-- =========================================
-     NAVBAR
-========================================= -->
 
-<header class="bg-white border-b sticky top-0 z-50">
+  <!-- NAVBAR -->
 
-    <nav class="max-w-7xl mx-auto px-4">
+  <header class="bg-white border-b">
 
-        <div class="h-16 flex items-center justify-between">
+    <nav
+      class="max-w-7xl mx-auto px-4">
 
-            <!-- Logo -->
+      <div
+        class="h-16 flex items-center justify-between">
 
-            <a
-                href="index.html"
-                class="text-xl sm:text-2xl font-bold text-[#d4af37]"
-            >
-                Raza
-                <span class="text-slate-900">
-                    Collection
-                </span>
-            </a>
+        <a
+          href="index.html"
+          class="text-2xl font-bold text-[#d4af37] ">
+
+          Raza<span class="text-slate-900">
+            Collection
+          </span>
+
+        </a>
 
 
-            <!-- Back -->
+        <a
+          href="index.html"
+          class="text-sm font-semibold text-[#d4af37]">
 
-            <a
-                href="index.html"
-                class="back-store-btn"
-            >
-                ←
-                <span class="hidden sm:inline">
-                    Back to Store
-                </span>
+          ← Back to Store
 
-                <span class="sm:hidden">
-                    Back
-                </span>
-            </a>
+        </a>
 
-        </div>
+      </div>
 
     </nav>
 
-</header>
+  </header>
 
 
+  <!-- PRODUCT DETAIL -->
 
-<!-- =========================================
-     PRODUCT DETAILS
-========================================= -->
+  <main class="max-w-7xl mx-auto px-4 py-12">
 
-<main class="product-detail-page py-6 sm:py-10 md:py-14">
 
-    <div class="max-w-6xl mx-auto px-4">
-
-        <div
-            id="productDetails"
-            class="product-detail-card p-4 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10"
-        >
-        </div>
+    <div
+      id="productDetails"
+      class="bg-white rounded-2xl p-6 md:p-10 grid md:grid-cols-2 gap-10">
 
     </div>
 
-</main>
 
+  </main>
+
+
+  <!-- ----------------------------------------------------------------------- -->
+
+  <script>
+  const whatsappNumber = "923011240292";
+
+  const product = JSON.parse(
+    localStorage.getItem("selectedProduct")
+  );
+
+  const container = document.getElementById("productDetails");
+
+  // Format Price
+  function formatPrice(price) {
+    return new Intl.NumberFormat("en-PK").format(price);
+  }
 
+  if (!product) {
+    container.innerHTML = `
+      <div class="col-span-full text-center py-20">
+        <h2 class="text-2xl font-bold">
+          Product Not Found
+        </h2>
 
-<!-- =========================================
-     JAVASCRIPT
-========================================= -->
+        <a
+          href="index.html"
+          class="inline-block mt-5 bg-blue-600 text-white px-6 py-3 rounded-lg">
+          Back to Store
+        </a>
+      </div>
+    `;
+  } else {
 
-<script>
+    container.innerHTML = `
+      <!-- IMAGE GALLERY -->
+      <div>
 
-    const whatsappNumber = "923011240292";
+        <!-- MAIN IMAGE -->
+        <div
+          class="bg-slate-100 rounded-2xl p-6 flex items-center justify-center">
+
+          <img
+            id="mainProductImage"
+            src="${product.images && product.images.length ? product.images[0] : product.image}"
+            alt="${product.title}"
+            class="max-h-[500px] w-full object-contain">
+
+        </div>
 
+        <!-- THUMBNAILS -->
+        ${
+          product.images && product.images.length > 1
+            ? `
+              <div class="product-gallery-thumbnails flex gap-3 mt-4 overflow-x-auto pb-2">
+                ${product.images.map((img, index) => `
+                  <button
+                    type="button"
+                    onclick="changeProductImage('${img.replace(/'/g, "\\'")}', this)"
+                    class="product-thumbnail ${index === 0 ? "active-thumbnail" : ""}">
+                    <img
+                      src="${img}"
+                      alt="${product.title} ${index + 1}">
+                  </button>
+                `).join("")}
+              </div>
+            `
+            : ""
+        }
 
-    /* =========================================
-       GET SELECTED PRODUCT
-    ========================================= */
+      </div>
 
-    const product = JSON.parse(
-        localStorage.getItem("selectedProduct")
-    );
 
+      <!-- INFO -->
+      <div class="flex flex-col justify-center">
 
-    const container =
-        document.getElementById("productDetails");
+        <span
+          class="text-[#d4af37] font-medium uppercase text-sm">
+          ${product.category}
+        </span>
 
+        <h1
+          class="text-3xl md:text-5xl font-bold mt-3">
+          ${product.title}
+        </h1>
 
-    /* =========================================
-       FORMAT PRICE
-    ========================================= */
+        <p
+          class="text-3xl font-medium text-[#d4af37] mt-6">
+          Rs. ${formatPrice(product.price)}
+        </p>
 
-    function formatPrice(price) {
+        <p
+          class="text-slate-600 leading-relaxed mt-6">
+          ${product.description}
+        </p>
 
-        return new Intl.NumberFormat("en-PK")
-            .format(price);
+        <button
+          onclick="buyProduct()"
+          class="mt-8 bg-[#d4af37] hover:bg-[#b8941f] hover:text-white text-dark py-4 rounded-xl font-bold text-lg">
 
-    }
+          💬 Buy Now on WhatsApp
 
+        </button>
 
-    /* =========================================
-       PRODUCT NOT FOUND
-    ========================================= */
+      </div>
+    `;
+  }
 
-    if (!product) {
 
-        container.innerHTML = `
+  // Change main product image
+  function changeProductImage(imageSrc, thumbnail) {
+    const mainImage = document.getElementById("mainProductImage");
 
-            <div class="col-span-full text-center py-16 sm:py-24">
+    if (!mainImage) return;
 
-                <div class="text-5xl mb-5">
-                    🛍️
-                </div>
+    mainImage.src = imageSrc;
 
-                <h2 class="text-2xl sm:text-3xl font-bold text-[#0b1220]">
-                    Product Not Found
-                </h2>
+    document.querySelectorAll(".product-thumbnail").forEach(item => {
+      item.classList.remove("active-thumbnail");
+    });
 
-                <p class="text-slate-500 mt-3 text-sm sm:text-base">
-                    Sorry, this product could not be found.
-                </p>
+    thumbnail.classList.add("active-thumbnail");
+  }
 
-                <a
-                    href="index.html"
-                    class="inline-flex items-center justify-center mt-6
-                    bg-[#d4af37] text-[#0b1220]
-                    px-6 py-3 rounded-lg
-                    font-semibold
-                    hover:bg-[#b8941f]
-                    hover:text-white
-                    transition"
-                >
-                    ← Back to Store
-                </a>
 
-            </div>
+  // WhatsApp Order
+  function buyProduct() {
 
-        `;
+    if (!product) return;
 
-    }
+    const message =
+      `✨ *RAZA COLLECTION* ✨\n` +
+      `━━━━━━━━━━━━━━━━━━\n\n` +
+      `🛍️ *Order Inquiry*\n\n` +
+      `📦 *Product:* ${product.title}\n` +
+      `💰 *Price:* Rs. ${formatPrice(product.price)}\n` +
+      `🏷️ *Category:* ${product.category}\n\n` +
+      `━━━━━━━━━━━━━━━━━━\n` +
+      `👑 *Premium Shopping Experience*\n\n` +
+      `Hello! I’m interested in purchasing this product.\n` +
+      `Kindly share the available *payment methods* and *delivery details* to proceed with my order.\n\n` +
+      `Thank you! ✨\n` +
+      `*RAZA COLLECTION — Online Shopping*`;
 
 
-    /* =========================================
-       DISPLAY PRODUCT
-    ========================================= */
+    const url =
+      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
-    else {
 
-        container.innerHTML = `
-
-            <!-- IMAGE -->
-
-            <div class="product-detail-image-box">
-
-                <img
-                    src="${product.image}"
-                    alt="${product.title}"
-                    class="product-detail-image"
-                >
-
-            </div>
-
-
-
-            <!-- INFO -->
-
-            <div class="flex flex-col justify-center py-2 md:py-6">
-
-                <!-- Category -->
-
-                <span class="product-detail-category w-fit">
-                    ${product.category}
-                </span>
-
-
-                <!-- Title -->
-
-                <h1 class="product-detail-title">
-                    ${product.title}
-                </h1>
-
-
-                <!-- Price -->
-
-                <div class="product-detail-price">
-                    Rs. ${formatPrice(product.price)}
-                </div>
-
-
-                <!-- Divider -->
-
-                <div class="product-info-divider"></div>
-
-
-                <!-- Description -->
-
-                <p class="product-detail-description">
-                    ${product.description}
-                </p>
-
-
-                <!-- WhatsApp -->
-
-                <button
-                    onclick="buyProduct()"
-                    class="product-whatsapp-btn"
-                >
-                    <span class="text-xl">
-                        💬
-                    </span>
-
-                    Buy Now on WhatsApp
-                </button>
-
-
-                <!-- Trust Info -->
-
-                <div class="product-trust-box">
-
-                    <strong>
-                        Raza Collection
-                    </strong>
-
-                    <br>
-
-                    Contact us on WhatsApp for
-                    payment methods, delivery details
-                    and order confirmation.
-
-                </div>
-
-            </div>
-
-        `;
-
-    }
-
-
-
-    /* =========================================
-       WHATSAPP ORDER
-    ========================================= */
-
-    function buyProduct() {
-
-        if (!product) return;
-
-
-        const message =
-
-            `✨ *RAZA COLLECTION* ✨\n` +
-
-            `━━━━━━━━━━━━━━━━━━\n\n` +
-
-            `🛍️ *Order Inquiry*\n\n` +
-
-            `📦 *Product:* ${product.title}\n` +
-
-            `💰 *Price:* Rs. ${formatPrice(product.price)}\n` +
-
-            `🏷️ *Category:* ${product.category}\n\n` +
-
-            `━━━━━━━━━━━━━━━━━━\n` +
-
-            `👑 *Premium Shopping Experience*\n\n` +
-
-            `Hello! I’m interested in purchasing this product.\n` +
-
-            `Kindly share the available *payment methods* ` +
-
-            `and *delivery details* to proceed with my order.\n\n` +
-
-            `Thank you! ✨\n` +
-
-            `*RAZA COLLECTION — Online Shopping*`;
-
-
-        const url =
-
-            `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-
-
-        window.open(
-            url,
-            "_blank"
-        );
-
-    }
-
+    // Open WhatsApp
+    window.open(url, "_blank");
+  }
 </script>
+  
+
 
 </body>
 
 </html>
-

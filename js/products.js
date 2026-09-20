@@ -873,53 +873,27 @@ const products = [
       "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
   }
   ,
-  {
-    id: 54,
-
-    title: "Breitling Sports Watch",
-
-    price: 1500,
-
-    category: "Watches",
-
-    image: "images/smart-devices/Breitling Sports Watch.jpeg",
-
-    description:
-      "<b>Breitling Sports Watch</b><br>* Black Dial<br>* Premium Silicone Strap<br>* Multiple Attractive Colours<br>* Sporty Design,, Durable Build<br>* Precise Quartz Movement & Comfortable Everyday Wear"
-  }
-  ,
-
-
-   {
-    id: 55,
-
-    title: "Bx-171 Rockstar Portable Speaker",
-
-    price: 2000,
-
-    category: "Accessories",
-
-    image: "images/accessories/Bx-171 Rockstar Portable Speaker.jpeg",
-
-    description:
-      "<b>Bx-171 Rockstar Portable Speaker<br>*Powerfull Sound with Long Battery Life Tf Card Support (Box Pack)"
-  }
-  ,
 
 
    {
     id: 56,
 
-    title: "ABAYA COLLECTION ",
+    title: "Soft Clippers",
 
-    price: 3500,
+    price: 1500,
 
-    category: "Clothing",
+    category: "Clippers",
 
-    image: "images/Clothing/ABAYA 1.jpeg",
-
+    images: [
+    "images/Clippers/soft clippers 1.jpeg",
+    "images/Clippers/soft clippers 2.jpeg",
+    "images/Clippers/soft clippers 3.jpeg",
+    "images/Clippers/soft clippers 4.jpeg",
+    "images/Clippers/soft clippers 5.jpeg",
+],
+  
     description:
-      "<b>INTRODUCING OUR LATEST ABAYA COLLECTION<br>*DUBAI STYLE ABAYA <br>* FRONT OPEN <br>* SIZE : <br> 1) LENGTH : 54/55/56 <br> 2) CHEST : 25 <br>* <b> STALLER NOT INCLUDED <b/>"
+      "<b>Soft clippers<br>*Safed chaman(white)Elegant design comfortable and beautiful soft clippers<br>* There are many more design and size From 7 to 11"
   }
 
 ];
