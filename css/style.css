@@ -541,3 +541,144 @@ color: #0B1220;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(212, 175, 55, 0.20);
 }
+
+
+/* =========================================================
+   RAZA COLLECTION — SPLASH / LOADING SCREEN
+   Appears on every page load, including browser refresh.
+   ========================================================= */
+
+.splash-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #faf7f0;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.splash-screen.splash-hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.splash-content {
+    width: min(90%, 360px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.splash-logo-wrap {
+    width: 145px;
+    height: 145px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        0 0 0 8px rgba(212, 175, 55, 0.08),
+        0 12px 35px rgba(15, 23, 42, 0.10);
+    animation: splashLogoIn 0.8s ease both;
+}
+
+.splash-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.splash-title {
+    margin-top: 28px;
+    color: #0b1220;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    animation: splashTextIn 0.8s 0.15s ease both;
+}
+
+.splash-loader {
+    position: relative;
+    width: 255px;
+    height: 4px;
+    margin-top: 8px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e9dfc7;
+}
+
+.splash-loader-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        #d4af37 0%,
+        #8ca56d 100%
+    );
+    animation: splashLoader 1.35s ease-in-out infinite;
+}
+
+@keyframes splashLoader {
+    0% {
+        transform: translateX(-55px);
+    }
+    50% {
+        transform: translateX(205px);
+    }
+    100% {
+        transform: translateX(-55px);
+    }
+}
+
+@keyframes splashLogoIn {
+    from {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes splashTextIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .splash-logo-wrap {
+        width: 125px;
+        height: 125px;
+    }
+
+    .splash-title {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .splash-loader {
+        width: 220px;
+    }
+}

@@ -387,3 +387,39 @@ if (seeMoreBtn) {
   seeMoreBtn.dataset.expanded = "false";
   seeMoreBtn.textContent = "See More";
 }
+
+/* =========================================================
+   RAZA COLLECTION — SPLASH SCREEN
+   Runs on every page load/refresh.
+   ========================================================= */
+document.addEventListener("DOMContentLoaded", () => {
+  const splashScreen = document.getElementById("splashScreen");
+
+  if (!splashScreen) return;
+
+  // Keep the splash visible briefly, then reveal the website.
+  const hideSplash = () => {
+    splashScreen.classList.add("splash-hide");
+
+    // Remove it after the fade-out to keep the page clean.
+    setTimeout(() => {
+      splashScreen.remove();
+    }, 650);
+  };
+
+  // Wait until the page's resources have loaded, with a minimum display time.
+  const startTime = performance.now();
+  const minimumDisplayTime = 1600;
+
+  const reveal = () => {
+    const elapsed = performance.now() - startTime;
+    const remaining = Math.max(0, minimumDisplayTime - elapsed);
+    setTimeout(hideSplash, remaining);
+  };
+
+  if (document.readyState === "complete") {
+    reveal();
+  } else {
+    window.addEventListener("load", reveal, { once: true });
+  }
+});
