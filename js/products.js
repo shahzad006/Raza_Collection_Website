@@ -220,7 +220,7 @@ const products = [
 ],
   
     description:
-      "<b>Premium Imported Georgette Abaya</b><br><br><b>Fabric:</b> Imported Georgette<br><b>Design:</b> Printed Abaya<br><b>Style:</b> Baggy Style<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+      "<b>Premium Imported Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Work:</b> Stone Work on Front & Sleeves<br><b>Embroidery:</b> Embroidery Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
   
   ,
@@ -477,21 +477,28 @@ const products = [
   }
   ,
 
-
-   {
+  {
     id: 28,
 
-    title: "Motia Flowers",
+    title: "Abaya",
 
-    price: 1200,
+    price: 3500,
 
-    category: "Perfumes",
+    category: "Clothings",
 
-    image: "images/Perfumes/Motia  Flowers.jpeg",
+    images: [
+    "images/Clothing/ABAYA item 1.jpeg",
+    "images/Clothing/ABAYA item 2.jpeg",
+    "images/Clothing/ABAYA item 3.jpeg",
 
+],
+  
     description:
-      "<b>Motia  Flowers</b><br>* 25ml perfume Long lasting<br> <b>Most Demanding Long lasting fragrances Pure natural Motia and Fresh Motia Flowers fragrances</b>"
+      "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Work:</b> Embroidery & Stone Work on Front and Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
+  
+
+  
   ,
 
 
@@ -1032,6 +1039,43 @@ const products = [
     description:
       "<b>PowerBank</b> <br>* BLUK’S BX-312 20000mAh Powerbank with 22.5W Fast Charging <br>* PD Power Delivery <br>* LED Battery Display <br>* Multi Protection & Travel-Friendly Design (Box Pack) <br> <b>WITH ONE YEAR OFFICIAL COMPANY WARRANTY</b>"
   }
+
+  ,
+
+
+   {
+    id: 61,
+
+    title: "Motia Flowers",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Motia  Flowers.jpeg",
+
+    description:
+      "<b>Motia  Flowers</b><br>* 25ml perfume Long lasting<br> <b>Most Demanding Long lasting fragrances Pure natural Motia and Fresh Motia Flowers fragrances</b>"
+  }
+
+  ,
+
+  {
+    id: 62,
+
+    title: "ABAYA COLLECTION",
+
+    price: 3000,
+
+    category: "Clothings",
+
+    image: "images/Clothing/item abaya.jpeg",
+
+    description:
+       "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Design:</b> Plain Abaya with Tussle on Front & Sleeves<br><b>Flair:</b> Big Flair<br><b>Style:</b> Front Open<br><b>Sleeves:</b> Umbrella Sleeves<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+  ,
 
 
   
