@@ -22,21 +22,36 @@ const products = [
   },
 
 
-  {
+
+
+
+  ,
+
+
+   {
     id: 2,
 
-    title: "Rolex GMT",
+    title: "LATEST ABAYA COLLECTION",
 
-    price: 2400,
+    price: 3300,
 
-    category: "Watches",
+    category: "Clothings",
 
-    image: "images/smart-devices/Rolex GMT.jpeg",
-
+    images: [
+    "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
+],
+  
     description:
-      "Stainless Steel chain <br> Date Working <br> Moving bazzle <br> High Quality <br> With MODERN WATCHES NAME BOX 📦"
+      "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
+
   ,
+
+
+
+  
 
   {
     id: 3,
@@ -920,7 +935,6 @@ const products = [
 
    {
     id: 56,
-
     title: "MODERN ABAYA",
 
     price: 3500,
@@ -957,6 +971,24 @@ const products = [
     description:
       "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
+  ,
+
+
+  {
+    id: 58,
+
+    title: "Rolex GMT",
+
+    price: 2400,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex GMT.jpeg",
+
+    description:
+      "Stainless Steel chain <br> Date Working <br> Moving bazzle <br> High Quality <br> With MODERN WATCHES NAME BOX 📦"
+  }
+  ,
 
 
   
