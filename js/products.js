@@ -1076,6 +1076,26 @@ const products = [
   }
 
   ,
+  
+   {
+    id: 63,
+
+    title: "Abaya Set",
+
+    price: 6800,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/ABAYA SET 1.jpeg",
+    "images/Clothing/ABAYA SET 2.jpeg",
+    "images/Clothing/ABAYA SET 3.jpeg",
+    "images/Clothing/ABAYA SET 4.jpeg",
+],
+  
+    description:
+      "<b>Premium 4 Piece Abaya Set</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Korean Georgette<br><b>Set Includes:</b> Abaya, Matching Staller, Matching Bag & Skirt<br><b>Skirt:</b> 2 Side Pockets<br><b>Style:</b> Maxi Style & Baggy Style<br><b>Look:</b> Beautiful Fall & Flowy Look<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25"
+  }
 
 
   
