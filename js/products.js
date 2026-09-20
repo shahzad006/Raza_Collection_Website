@@ -896,7 +896,7 @@ const products = [
       "<b>Soft clippers<br>*Safed chaman(white)Elegant design comfortable and beautiful soft clippers<br>* There are many more design and size From 7 to 11"
   }
 
-  // 
+
   
 
   ,
@@ -912,8 +912,54 @@ const products = [
     image: "images/Clothing/ABAYA 1.jpeg",
 
     description:
-      "<b>Premium Abaya Collection</b><br><br><b>Work:</b> Embroidery Work on Sleeves<br><b>Style:</b> Maxi Style<br><b>Flair:</b> Big Flare<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Price:</b> Rs. 3,500<br><b>Note:</b> Staller Not Included<br>"
+      "<b>Premium Abaya Collection</b><br><br><b>Work:</b> Embroidery Work on Sleeves<br><b>Style:</b> Maxi Style<br><b>Flair:</b> Big Flare<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included<br>"
   }
+
+  ,
+
+
+   {
+    id: 56,
+
+    title: "MODERN ABAYA",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/MODERN ABAYA 1.jpeg",
+    "images/Clothing/MODERN ABAYA 2.jpeg",
+    "images/Clothing/MODERN ABAYA 3.jpeg",
+],
+  
+    description:
+      "<b>Modern Abaya - Latest Collection</b><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+  ,
+
+
+   {
+    id: 57,
+
+    title: "LATEST ABAYA COLLECTION",
+
+    price: 3300,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
+],
+  
+    description:
+      "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+
+  
 
 ];
 
