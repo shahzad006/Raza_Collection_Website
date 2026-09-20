@@ -22,12 +22,6 @@ const products = [
   },
 
 
-
-
-
-  ,
-
-
    {
     id: 2,
 
@@ -101,22 +95,29 @@ const products = [
   }
   ,
 
-  {
+  
+   {
     id: 6,
 
-    title: "Ladies Watch",
+    title: "ABAYA COLLECTION",
 
-    price: 1500,
+    price: 2500,
 
-    category: "Watches",
+    category: "Clothings",
 
-    image: "images/smart-devices/Ladies Watch.jpeg",
-
+    images: [
+    "images/Clothing/IMPORTED GEORGETTE 1.jpeg",
+    "images/Clothing/IMPORTED GEORGETTE 2.jpeg",
+    "images/Clothing/IMPORTED GEORGETTE 3.jpeg",
+],
+  
     description:
-      "<b>Ladies Watch</b> <br>* Ladies Watch with Premium <br>* Luxury Chain <br>* Elegant Dial <br>* Stylish Design <br>* Decorative Bezel & Classy Luxury Look"
+      "<b>Premium Imported Georgette Abaya</b><br><br><b>Fabric:</b> Imported Georgette<br><b>Design:</b> Printed Abaya<br><b>Style:</b> Baggy Style<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
   ,
+
+  
 
   {
     id: 7,
@@ -988,6 +989,24 @@ const products = [
     description:
       "Stainless Steel chain <br> Date Working <br> Moving bazzle <br> High Quality <br> With MODERN WATCHES NAME BOX 📦"
   }
+  ,
+
+
+  {
+    id: 59,
+
+    title: "Ladies Watch",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Ladies Watch.jpeg",
+
+    description:
+      "<b>Ladies Watch</b> <br>* Ladies Watch with Premium <br>* Luxury Chain <br>* Elegant Dial <br>* Stylish Design <br>* Decorative Bezel & Classy Luxury Look"
+  }
+
   ,
 
 
