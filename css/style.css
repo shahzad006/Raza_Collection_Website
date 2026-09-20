@@ -581,6 +581,7 @@ color: #0B1220;
     height: 145px;
     padding: 10px;
     border-radius: 50%;
+    position: relative;
     background: #ffffff;
     display: flex;
     align-items: center;
@@ -608,62 +609,26 @@ color: #0B1220;
     animation: splashTextIn 0.8s 0.15s ease both;
 }
 
-.splash-loader {
-    position: relative;
-    width: 255px;
-    height: 4px;
-    margin-top: 8px;
-    overflow: hidden;
-    border-radius: 999px;
-    background: #e9dfc7;
-}
-
-.splash-loader-fill {
+/* Circular loading ring around the logo */
+.splash-loader-circle {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 48px;
-    height: 100%;
-    border-radius: 999px;
-    background: linear-gradient(
-        90deg,
-        #d4af37 0%,
-        #8ca56d 100%
-    );
-    animation: splashLoader 1.35s ease-in-out infinite;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #d4af37;
+    border-right-color: #8ca56d;
+    animation: splashCircleSpin 1.2s linear infinite;
+    pointer-events: none;
 }
 
-@keyframes splashLoader {
-    0% {
-        transform: translateX(-55px);
-    }
-    50% {
-        transform: translateX(205px);
-    }
-    100% {
-        transform: translateX(-55px);
-    }
-}
-
-@keyframes splashLogoIn {
+@keyframes splashCircleSpin {
     from {
-        opacity: 0;
-        transform: scale(0.75);
+        transform: rotate(0deg);
     }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
 
-@keyframes splashTextIn {
-    from {
-        opacity: 0;
-        transform: translateY(8px);
-    }
     to {
-        opacity: 1;
-        transform: translateY(0);
+        transform: rotate(360deg);
     }
 }
 
@@ -671,6 +636,11 @@ color: #0B1220;
     .splash-logo-wrap {
         width: 125px;
         height: 125px;
+    }
+
+    .splash-loader-circle {
+        width: 143px;
+        height: 143px;
     }
 
     .splash-title {
