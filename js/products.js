@@ -200,20 +200,29 @@ const products = [
   ,
 
 
-   {
+  {
     id: 12,
 
-    title: "Powerbank",
+    title: "Abaya",
 
-    price: 4500,
+    price: 4000,
 
-    category: "Accessories",
+    category: "Clothings",
 
-    image: "images/accessories/powerbanks.jpeg",
+    images: [
+    "images/Clothing/IMPORTED NIDA 1.jpeg",
+    "images/Clothing/IMPORTED NIDA 2.jpeg",
+    "images/Clothing/IMPORTED NIDA 3.jpeg",
+    "images/Clothing/IMPORTED NIDA 4.jpeg",
+    "images/Clothing/IMPORTED NIDA 5.jpeg",
+    "images/Clothing/IMPORTED NIDA 6.jpeg",
 
+],
+  
     description:
-      "<b>PowerBank</b> <br>* BLUK’S BX-312 20000mAh Powerbank with 22.5W Fast Charging <br>* PD Power Delivery <br>* LED Battery Display <br>* Multi Protection & Travel-Friendly Design (Box Pack) <br> <b>WITH ONE YEAR OFFICIAL COMPANY WARRANTY</b>"
+      "<b>Premium Imported Georgette Abaya</b><br><br><b>Fabric:</b> Imported Georgette<br><b>Design:</b> Printed Abaya<br><b>Style:</b> Baggy Style<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
+  
   ,
 
 
@@ -1008,6 +1017,21 @@ const products = [
   }
 
   ,
+
+   {
+    id: 60,
+
+    title: "Powerbank",
+
+    price: 4500,
+
+    category: "Accessories",
+
+    image: "images/accessories/powerbanks.jpeg",
+
+    description:
+      "<b>PowerBank</b> <br>* BLUK’S BX-312 20000mAh Powerbank with 22.5W Fast Charging <br>* PD Power Delivery <br>* LED Battery Display <br>* Multi Protection & Travel-Friendly Design (Box Pack) <br> <b>WITH ONE YEAR OFFICIAL COMPANY WARRANTY</b>"
+  }
 
 
   
