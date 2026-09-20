@@ -682,3 +682,64 @@ color: #0B1220;
         width: 220px;
     }
 }
+
+/* =========================================
+   RAZA COLLECTION - MOBILE PRODUCT GRID
+   2 PRODUCTS PER ROW
+========================================= */
+
+@media (max-width: 640px) {
+
+    /* Product grid */
+    #productGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 12px !important;
+    }
+
+    /* Product card */
+    #productGrid .product-card {
+        border-radius: 12px;
+    }
+
+    /* Product image - prevent cropping */
+    #productGrid .product-image {
+        width: 100%;
+        height: 170px;
+        object-fit: contain;
+    }
+
+    /* Product content */
+    #productGrid .product-card > div:last-child {
+        padding: 12px !important;
+    }
+
+    /* Category */
+    #productGrid .product-card span {
+        font-size: 10px;
+    }
+
+    /* Product title */
+    #productGrid .product-card h3 {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    /* Price */
+    #productGrid .product-card p {
+        font-size: 12px;
+    }
+
+    /* Buttons */
+    #productGrid .buy-btn,
+    #productGrid .details-btn {
+        padding: 7px 5px;
+        font-size: 11px;
+        border-radius: 6px;
+    }
+
+    /* Button gap */
+    #productGrid .flex.gap-2 {
+        gap: 5px !important;
+    }
+}
+
