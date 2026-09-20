@@ -1138,6 +1138,23 @@ const products = [
   }
 
 
+  ,
+  {
+    id: 66,
+
+    title: "Hand Work Abaya",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/Abaya single.jpeg",
+
+    description:
+       "<b>Premium Dubai Style Abaya</b><br><br><b>Fabric:</b> Imported Shining Nida<br><b>Style:</b> Dubai Style Abaya<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+
   
 
 ];
