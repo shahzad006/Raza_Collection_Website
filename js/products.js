@@ -876,7 +876,7 @@ const products = [
 
 
    {
-    id: 56,
+    id: 54,
 
     title: "Soft Clippers",
 
@@ -894,6 +894,25 @@ const products = [
   
     description:
       "<b>Soft clippers<br>*Safed chaman(white)Elegant design comfortable and beautiful soft clippers<br>* There are many more design and size From 7 to 11"
+  }
+
+  // 
+  
+
+  ,
+  {
+    id: 55,
+
+    title: "ABAYA COLLECTION",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/ABAYA 1.jpeg",
+
+    description:
+      "<b>Premium Abaya Collection</b><br><br><b>Work:</b> Embroidery Work on Sleeves<br><b>Style:</b> Maxi Style<br><b>Flair:</b> Big Flare<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Price:</b> Rs. 3,500<br><b>Note:</b> Staller Not Included<br>"
   }
 
 ];
