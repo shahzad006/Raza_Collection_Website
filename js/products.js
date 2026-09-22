@@ -1154,6 +1154,32 @@ const products = [
        "<b>Premium Dubai Style Abaya</b><br><br><b>Fabric:</b> Imported Shining Nida<br><b>Style:</b> Dubai Style Abaya<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
+  ,
+
+     {
+    id: 67,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/LADIES FANCY 1.jpeg",
+    "images/smart-devices/LADIES FANCY 2.jpeg",
+    "images/smart-devices/LADIES FANCY 3.jpeg",
+    "images/smart-devices/LADIES FANCY 4.jpeg",
+    "images/smart-devices/LADIES FANCY 5.jpeg",
+    "images/smart-devices/LADIES FANCY 6.jpeg",
+    "images/smart-devices/LADIES FANCY 7.jpeg",
+    "images/smart-devices/LADIES FANCY 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
 
   
 
