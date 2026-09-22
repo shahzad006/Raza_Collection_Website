@@ -1179,6 +1179,31 @@ const products = [
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
+  ,
+
+     {
+    id: 68,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/PREMIER LADIES 1.jpeg",
+    "images/smart-devices/PREMIER LADIES 2.jpeg",
+    "images/smart-devices/PREMIER LADIES 3.jpeg",
+    "images/smart-devices/PREMIER LADIES 4.jpeg",
+    "images/smart-devices/PREMIER LADIES 5.jpeg",
+    "images/smart-devices/PREMIER LADIES 6.jpeg",
+    "images/smart-devices/PREMIER LADIES 7.jpeg",
+    "images/smart-devices/PREMIER LADIES 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
 
 
   
