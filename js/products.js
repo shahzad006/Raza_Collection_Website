@@ -4,7 +4,7 @@
 
 const products = [
 
-  
+
 
   {
     id: 1,
@@ -22,7 +22,7 @@ const products = [
   },
 
 
-   {
+  {
     id: 2,
 
     title: "LATEST ABAYA COLLECTION",
@@ -32,11 +32,11 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
-    "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
-    "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
-],
-  
+      "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
+      "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
+      "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
+    ],
+
     description:
       "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
@@ -45,7 +45,7 @@ const products = [
 
 
 
-  
+
 
   {
     id: 3,
@@ -95,8 +95,8 @@ const products = [
   }
   ,
 
-  
-   {
+
+  {
     id: 6,
 
     title: "ABAYA COLLECTION",
@@ -106,18 +106,18 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/IMPORTED GEORGETTE 1.jpeg",
-    "images/Clothing/IMPORTED GEORGETTE 2.jpeg",
-    "images/Clothing/IMPORTED GEORGETTE 3.jpeg",
-],
-  
+      "images/Clothing/IMPORTED GEORGETTE 1.jpeg",
+      "images/Clothing/IMPORTED GEORGETTE 2.jpeg",
+      "images/Clothing/IMPORTED GEORGETTE 3.jpeg",
+    ],
+
     description:
       "<b>Premium Imported Georgette Abaya</b><br><br><b>Fabric:</b> Imported Georgette<br><b>Design:</b> Printed Abaya<br><b>Style:</b> Baggy Style<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
   ,
 
-  
+
 
   {
     id: 7,
@@ -210,23 +210,23 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/IMPORTED NIDA 1.jpeg",
-    "images/Clothing/IMPORTED NIDA 2.jpeg",
-    "images/Clothing/IMPORTED NIDA 3.jpeg",
-    "images/Clothing/IMPORTED NIDA 4.jpeg",
-    "images/Clothing/IMPORTED NIDA 5.jpeg",
-    "images/Clothing/IMPORTED NIDA 6.jpeg",
+      "images/Clothing/IMPORTED NIDA 1.jpeg",
+      "images/Clothing/IMPORTED NIDA 2.jpeg",
+      "images/Clothing/IMPORTED NIDA 3.jpeg",
+      "images/Clothing/IMPORTED NIDA 4.jpeg",
+      "images/Clothing/IMPORTED NIDA 5.jpeg",
+      "images/Clothing/IMPORTED NIDA 6.jpeg",
 
-],
-  
+    ],
+
     description:
       "<b>Premium Imported Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Work:</b> Stone Work on Front & Sleeves<br><b>Embroidery:</b> Embroidery Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
-  
+
   ,
 
 
-   {
+  {
     id: 13,
 
     title: "ROMOSS Powerbank",
@@ -243,7 +243,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 14,
 
     title: "i11 Pro Max",
@@ -261,7 +261,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 15,
 
     title: "BLUKS BX-608 VORTEX EARBUDS 🎧",
@@ -342,7 +342,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 20,
 
     title: "Light Speaker",
@@ -359,7 +359,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 21,
 
     title: "WAVEONIC HEADPHONES",
@@ -393,7 +393,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 23,
 
     title: "WIRELESS EARBUDS",
@@ -410,7 +410,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 24,
 
     title: "WIRELESS EARBUDS",
@@ -427,7 +427,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 25,
 
     title: "Prismo swiss",
@@ -444,7 +444,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 26,
 
     title: "Pen Perfume",
@@ -461,7 +461,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 27,
 
     title: "Heart Perfume Gift set pack",
@@ -487,22 +487,22 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/ABAYA item 1.jpeg",
-    "images/Clothing/ABAYA item 2.jpeg",
-    "images/Clothing/ABAYA item 3.jpeg",
+      "images/Clothing/ABAYA item 1.jpeg",
+      "images/Clothing/ABAYA item 2.jpeg",
+      "images/Clothing/ABAYA item 3.jpeg",
 
-],
-  
+    ],
+
     description:
       "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Work:</b> Embroidery & Stone Work on Front and Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
-  
 
-  
+
+
   ,
 
 
-   {
+  {
     id: 29,
 
     title: "long lasting perfume ",
@@ -519,7 +519,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 30,
 
     title: "WIRELESS EARBUDS",
@@ -568,7 +568,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 33,
 
     title: "Original 4me",
@@ -585,7 +585,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 34,
 
     title: "long lasting perfume ",
@@ -602,7 +602,7 @@ const products = [
 
   ,
 
-   {
+  {
     id: 35,
 
     title: "Abaya Collection",
@@ -612,10 +612,10 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/MODERN ABAYA Item 1.jpeg",
-    "images/Clothing/MODERN ABAYA Item 2.jpeg",
-],
-  
+      "images/Clothing/MODERN ABAYA Item 1.jpeg",
+      "images/Clothing/MODERN ABAYA Item 2.jpeg",
+    ],
+
     description:
       "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Zoom Nida<br><b>Work:</b> Cut Dana Hand Work<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br>"
   }
@@ -624,7 +624,7 @@ const products = [
 
   ,
 
-   {
+  {
     id: 36,
 
     title: "long lasting perfume ",
@@ -640,7 +640,7 @@ const products = [
   }
   ,
 
-   {
+  {
     id: 37,
 
     title: "Marj by Ahmed Al magribi Dubai  famous",
@@ -656,7 +656,7 @@ const products = [
   }
   ,
 
-   {
+  {
     id: 38,
 
     title: "Gucci Flora",
@@ -672,7 +672,7 @@ const products = [
   }
   ,
 
-   {
+  {
     id: 39,
 
     title: "Dirham",
@@ -749,7 +749,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 44,
 
     title: "FoneStop 20,000MAH",
@@ -766,7 +766,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 45,
 
     title: " FoneStop 20,000MAH SuperFast",
@@ -783,7 +783,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 46,
 
     title: "20W USB-C Power Adapter",
@@ -800,7 +800,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 47,
 
     title: "C6 Ultra 2 Smart Watch with Headphones",
@@ -832,7 +832,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 49,
 
     title: "BLUKS BX-AIRPRO 3 White",
@@ -849,7 +849,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 50,
 
     title: "ROYAL X RBT-825",
@@ -896,7 +896,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 53,
 
     title: "BLUKS BX 607",
@@ -913,7 +913,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 54,
 
     title: "Soft Clippers",
@@ -923,19 +923,19 @@ const products = [
     category: "Clippers",
 
     images: [
-    "images/Clippers/soft clippers 1.jpeg",
-    "images/Clippers/soft clippers 2.jpeg",
-    "images/Clippers/soft clippers 3.jpeg",
-    "images/Clippers/soft clippers 4.jpeg",
-    "images/Clippers/soft clippers 5.jpeg",
-],
-  
+      "images/Clippers/soft clippers 1.jpeg",
+      "images/Clippers/soft clippers 2.jpeg",
+      "images/Clippers/soft clippers 3.jpeg",
+      "images/Clippers/soft clippers 4.jpeg",
+      "images/Clippers/soft clippers 5.jpeg",
+    ],
+
     description:
       "<b>Soft clippers<br>*Safed chaman(white)Elegant design comfortable and beautiful soft clippers<br>* There are many more design and size From 7 to 11"
   }
 
 
-  
+
 
   ,
   {
@@ -956,7 +956,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 56,
     title: "MODERN ABAYA",
 
@@ -965,18 +965,18 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/MODERN ABAYA 1.jpeg",
-    "images/Clothing/MODERN ABAYA 2.jpeg",
-    "images/Clothing/MODERN ABAYA 3.jpeg",
-],
-  
+      "images/Clothing/MODERN ABAYA 1.jpeg",
+      "images/Clothing/MODERN ABAYA 2.jpeg",
+      "images/Clothing/MODERN ABAYA 3.jpeg",
+    ],
+
     description:
       "<b>Modern Abaya - Latest Collection</b><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
   ,
 
 
-   {
+  {
     id: 57,
 
     title: "LATEST ABAYA COLLECTION",
@@ -986,11 +986,11 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
-    "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
-    "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
-],
-  
+      "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
+      "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
+      "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
+    ],
+
     description:
       "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
@@ -1031,7 +1031,7 @@ const products = [
 
   ,
 
-   {
+  {
     id: 60,
 
     title: "Powerbank",
@@ -1049,7 +1049,7 @@ const products = [
   ,
 
 
-   {
+  {
     id: 61,
 
     title: "Motia Flowers",
@@ -1078,12 +1078,12 @@ const products = [
     image: "images/Clothing/item abaya.jpeg",
 
     description:
-       "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Design:</b> Plain Abaya with Tussle on Front & Sleeves<br><b>Flair:</b> Big Flair<br><b>Style:</b> Front Open<br><b>Sleeves:</b> Umbrella Sleeves<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+      "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Design:</b> Plain Abaya with Tussle on Front & Sleeves<br><b>Flair:</b> Big Flair<br><b>Style:</b> Front Open<br><b>Sleeves:</b> Umbrella Sleeves<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
   ,
-  
-   {
+
+  {
     id: 63,
 
     title: "Abaya Set",
@@ -1093,19 +1093,19 @@ const products = [
     category: "Clothings",
 
     images: [
-    "images/Clothing/ABAYA SET 1.jpeg",
-    "images/Clothing/ABAYA SET 2.jpeg",
-    "images/Clothing/ABAYA SET 3.jpeg",
-    "images/Clothing/ABAYA SET 4.jpeg",
-],
-  
+      "images/Clothing/ABAYA SET 1.jpeg",
+      "images/Clothing/ABAYA SET 2.jpeg",
+      "images/Clothing/ABAYA SET 3.jpeg",
+      "images/Clothing/ABAYA SET 4.jpeg",
+    ],
+
     description:
       "<b>Premium 4 Piece Abaya Set</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Korean Georgette<br><b>Set Includes:</b> Abaya, Matching Staller, Matching Bag & Skirt<br><b>Skirt:</b> 2 Side Pockets<br><b>Style:</b> Maxi Style & Baggy Style<br><b>Look:</b> Beautiful Fall & Flowy Look<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25"
   }
-  
+
   ,
 
-   {
+  {
     id: 64,
 
     title: "long lasting perfume ",
@@ -1134,7 +1134,7 @@ const products = [
     image: "images/Clothing/abaya.jpeg",
 
     description:
-       "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Crush Nida<br><b>Work:</b> Cut Dana Hand Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+      "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Crush Nida<br><b>Work:</b> Cut Dana Hand Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
 
@@ -1151,12 +1151,12 @@ const products = [
     image: "images/Clothing/Abaya single.jpeg",
 
     description:
-       "<b>Premium Dubai Style Abaya</b><br><br><b>Fabric:</b> Imported Shining Nida<br><b>Style:</b> Dubai Style Abaya<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+      "<b>Premium Dubai Style Abaya</b><br><br><b>Fabric:</b> Imported Shining Nida<br><b>Style:</b> Dubai Style Abaya<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
   }
 
   ,
 
-     {
+  {
     id: 67,
 
     title: " LADIES WATCH M-1",
@@ -1165,23 +1165,23 @@ const products = [
 
     category: "Watches",
 
-     images: [
-    "images/smart-devices/watch 1.jpeg",
-    "images/smart-devices/watch 2.jpeg",
-    "images/smart-devices/watch 3.jpeg",
-    "images/smart-devices/watch 4.jpeg",
-    "images/smart-devices/watch 5.jpeg",
-    "images/smart-devices/watch 6.jpeg",
-    "images/smart-devices/watch 7.jpeg",
-    "images/smart-devices/watch 8.jpeg",
-],
-  
+    images: [
+      "images/smart-devices/watch 1.jpeg",
+      "images/smart-devices/watch 2.jpeg",
+      "images/smart-devices/watch 3.jpeg",
+      "images/smart-devices/watch 4.jpeg",
+      "images/smart-devices/watch 5.jpeg",
+      "images/smart-devices/watch 6.jpeg",
+      "images/smart-devices/watch 7.jpeg",
+      "images/smart-devices/watch 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
   ,
 
-     {
+  {
     id: 68,
 
     title: " LADIES WATCH M-2",
@@ -1190,26 +1190,26 @@ const products = [
 
     category: "Watches",
 
-     images: [
-    "images/smart-devices/NEW MODEL 1.jpeg",
-    "images/smart-devices/NEW MODEL 2.jpeg",
-    "images/smart-devices/NEW MODEL 3.jpeg",
-    "images/smart-devices/NEW MODEL 4.jpeg",
-    "images/smart-devices/NEW MODEL 5.jpeg",
-    "images/smart-devices/NEW MODEL 6.jpeg",
-    "images/smart-devices/NEW MODEL 7.jpeg",
-    "images/smart-devices/NEW MODEL 8.jpeg",
-],
-  
+    images: [
+      "images/smart-devices/NEW MODEL 1.jpeg",
+      "images/smart-devices/NEW MODEL 2.jpeg",
+      "images/smart-devices/NEW MODEL 3.jpeg",
+      "images/smart-devices/NEW MODEL 4.jpeg",
+      "images/smart-devices/NEW MODEL 5.jpeg",
+      "images/smart-devices/NEW MODEL 6.jpeg",
+      "images/smart-devices/NEW MODEL 7.jpeg",
+      "images/smart-devices/NEW MODEL 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
 
-  
+
   ,
 
-     {
+  {
     id: 69,
 
     title: " LADIES WATCH M-3",
@@ -1219,23 +1219,23 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/FANCY COLLECTION 1.jpeg",
-    "images/smart-devices/FANCY COLLECTION 2.jpeg",
-    "images/smart-devices/FANCY COLLECTION 3.jpeg",
-    "images/smart-devices/FANCY COLLECTION 4.jpeg",
-    "images/smart-devices/FANCY COLLECTION 5.jpeg",
-    "images/smart-devices/FANCY COLLECTION 6.jpeg",
-    "images/smart-devices/FANCY COLLECTION 7.jpeg",
-    "images/smart-devices/FANCY COLLECTION 8.jpeg",
-],
-  
+      "images/smart-devices/FANCY COLLECTION 1.jpeg",
+      "images/smart-devices/FANCY COLLECTION 2.jpeg",
+      "images/smart-devices/FANCY COLLECTION 3.jpeg",
+      "images/smart-devices/FANCY COLLECTION 4.jpeg",
+      "images/smart-devices/FANCY COLLECTION 5.jpeg",
+      "images/smart-devices/FANCY COLLECTION 6.jpeg",
+      "images/smart-devices/FANCY COLLECTION 7.jpeg",
+      "images/smart-devices/FANCY COLLECTION 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
   ,
 
-     {
+  {
     id: 70,
 
     title: " LADIES WATCH M-4",
@@ -1243,24 +1243,24 @@ const products = [
     price: 1500,
 
     category: "Watches",
- images: [
-    "images/smart-devices/PREMIER LADIES 1.jpeg",
-    "images/smart-devices/PREMIER LADIES 2.jpeg",
-    "images/smart-devices/PREMIER LADIES 3.jpeg",
-    "images/smart-devices/PREMIER LADIES 4.jpeg",
-    "images/smart-devices/PREMIER LADIES 5.jpeg",
-    "images/smart-devices/PREMIER LADIES 6.jpeg",
-    "images/smart-devices/PREMIER LADIES 7.jpeg",
-    "images/smart-devices/PREMIER LADIES 8.jpeg",
-],
-  
+    images: [
+      "images/smart-devices/PREMIER LADIES 1.jpeg",
+      "images/smart-devices/PREMIER LADIES 2.jpeg",
+      "images/smart-devices/PREMIER LADIES 3.jpeg",
+      "images/smart-devices/PREMIER LADIES 4.jpeg",
+      "images/smart-devices/PREMIER LADIES 5.jpeg",
+      "images/smart-devices/PREMIER LADIES 6.jpeg",
+      "images/smart-devices/PREMIER LADIES 7.jpeg",
+      "images/smart-devices/PREMIER LADIES 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
   ,
 
-     {
+  {
     id: 71,
 
     title: " LADIES WATCH M-5",
@@ -1270,23 +1270,23 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/LADIES FANCY 1.jpeg",
-    "images/smart-devices/LADIES FANCY 2.jpeg",
-    "images/smart-devices/LADIES FANCY 3.jpeg",
-    "images/smart-devices/LADIES FANCY 4.jpeg",
-    "images/smart-devices/LADIES FANCY 5.jpeg",
-    "images/smart-devices/LADIES FANCY 6.jpeg",
-    "images/smart-devices/LADIES FANCY 7.jpeg",
-    "images/smart-devices/LADIES FANCY 8.jpeg",
-],
-  
+      "images/smart-devices/LADIES FANCY 1.jpeg",
+      "images/smart-devices/LADIES FANCY 2.jpeg",
+      "images/smart-devices/LADIES FANCY 3.jpeg",
+      "images/smart-devices/LADIES FANCY 4.jpeg",
+      "images/smart-devices/LADIES FANCY 5.jpeg",
+      "images/smart-devices/LADIES FANCY 6.jpeg",
+      "images/smart-devices/LADIES FANCY 7.jpeg",
+      "images/smart-devices/LADIES FANCY 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
   ,
 
-     {
+  {
     id: 72,
 
     title: " LADIES WATCH M-6",
@@ -1296,22 +1296,22 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/Watch M-6 1.jpeg",
-    "images/smart-devices/Watch M-6 2.jpeg",
-    "images/smart-devices/Watch M-6 3.jpeg",
-    "images/smart-devices/Watch M-6 4.jpeg",
-    "images/smart-devices/Watch M-6 5.jpeg",
-    "images/smart-devices/Watch M-6 6.jpeg",
-    "images/smart-devices/Watch M-6 7.jpeg",
-    "images/smart-devices/Watch M-6 8.jpeg",
-],
-  
+      "images/smart-devices/Watch M-6 1.jpeg",
+      "images/smart-devices/Watch M-6 2.jpeg",
+      "images/smart-devices/Watch M-6 3.jpeg",
+      "images/smart-devices/Watch M-6 4.jpeg",
+      "images/smart-devices/Watch M-6 5.jpeg",
+      "images/smart-devices/Watch M-6 6.jpeg",
+      "images/smart-devices/Watch M-6 7.jpeg",
+      "images/smart-devices/Watch M-6 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
   ,
 
-     {
+  {
     id: 73,
 
     title: " LADIES WATCH M-7",
@@ -1321,16 +1321,16 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/Watch M-7 1.jpeg",
-    "images/smart-devices/Watch M-7 2.jpeg",
-    "images/smart-devices/Watch M-7 3.jpeg",
-    "images/smart-devices/Watch M-7 4.jpeg",
-    "images/smart-devices/Watch M-7 5.jpeg",
-    "images/smart-devices/Watch M-7 6.jpeg",
-    "images/smart-devices/Watch M-7 7.jpeg",
-    "images/smart-devices/Watch M-7 8.jpeg",
-],
-  
+      "images/smart-devices/Watch M-7 1.jpeg",
+      "images/smart-devices/Watch M-7 2.jpeg",
+      "images/smart-devices/Watch M-7 3.jpeg",
+      "images/smart-devices/Watch M-7 4.jpeg",
+      "images/smart-devices/Watch M-7 5.jpeg",
+      "images/smart-devices/Watch M-7 6.jpeg",
+      "images/smart-devices/Watch M-7 7.jpeg",
+      "images/smart-devices/Watch M-7 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
@@ -1339,7 +1339,7 @@ const products = [
 
   ,
 
-     {
+  {
     id: 74,
 
     title: " LADIES WATCH M-8",
@@ -1349,22 +1349,22 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/Watch M-8 1.jpeg",
-    "images/smart-devices/Watch M-8 2.jpeg",
-    "images/smart-devices/Watch M-8 3.jpeg",
-    "images/smart-devices/Watch M-8 4.jpeg",
-    "images/smart-devices/Watch M-8 5.jpeg",
-    "images/smart-devices/Watch M-8 6.jpeg",
-    "images/smart-devices/Watch M-8 7.jpeg",
-    "images/smart-devices/Watch M-8 8.jpeg",
-],
-  
+      "images/smart-devices/Watch M-8 1.jpeg",
+      "images/smart-devices/Watch M-8 2.jpeg",
+      "images/smart-devices/Watch M-8 3.jpeg",
+      "images/smart-devices/Watch M-8 4.jpeg",
+      "images/smart-devices/Watch M-8 5.jpeg",
+      "images/smart-devices/Watch M-8 6.jpeg",
+      "images/smart-devices/Watch M-8 7.jpeg",
+      "images/smart-devices/Watch M-8 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
   ,
 
-     {
+  {
     id: 75,
 
     title: " LADIES WATCH M-9",
@@ -1374,23 +1374,23 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/Watch M-9 1.jpeg",
-    "images/smart-devices/Watch M-9 2.jpeg",
-    "images/smart-devices/Watch M-9 3.jpeg",
-    "images/smart-devices/Watch M-9 4.jpeg",
-    "images/smart-devices/Watch M-9 5.jpeg",
-    "images/smart-devices/Watch M-9 6.jpeg",
-    "images/smart-devices/Watch M-9 7.jpeg",
-    "images/smart-devices/Watch M-9 8.jpeg",
-],
-  
+      "images/smart-devices/Watch M-9 1.jpeg",
+      "images/smart-devices/Watch M-9 2.jpeg",
+      "images/smart-devices/Watch M-9 3.jpeg",
+      "images/smart-devices/Watch M-9 4.jpeg",
+      "images/smart-devices/Watch M-9 5.jpeg",
+      "images/smart-devices/Watch M-9 6.jpeg",
+      "images/smart-devices/Watch M-9 7.jpeg",
+      "images/smart-devices/Watch M-9 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
   ,
 
-     {
+  {
     id: 76,
 
     title: " LADIES WATCH M-10",
@@ -1400,23 +1400,23 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/Watch M-10 1.jpeg",
-    "images/smart-devices/Watch M-10 2.jpeg",
-    "images/smart-devices/Watch M-10 3.jpeg",
-    "images/smart-devices/Watch M-10 4.jpeg",
-    "images/smart-devices/Watch M-10 5.jpeg",
-    "images/smart-devices/Watch M-10 6.jpeg",
-    "images/smart-devices/Watch M-10 7.jpeg",
-    "images/smart-devices/Watch M-10 8.jpeg",
-],
-  
+      "images/smart-devices/Watch M-10 1.jpeg",
+      "images/smart-devices/Watch M-10 2.jpeg",
+      "images/smart-devices/Watch M-10 3.jpeg",
+      "images/smart-devices/Watch M-10 4.jpeg",
+      "images/smart-devices/Watch M-10 5.jpeg",
+      "images/smart-devices/Watch M-10 6.jpeg",
+      "images/smart-devices/Watch M-10 7.jpeg",
+      "images/smart-devices/Watch M-10 8.jpeg",
+    ],
+
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
   ,
 
-     {
+  {
     id: 77,
 
     title: "ROLEX DATE JUST PLAIN BEZEL",
@@ -1426,17 +1426,38 @@ const products = [
     category: "Watches",
 
     images: [
-    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL.jpeg",
-    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL 1.jpeg",
-],
-  
+      "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL.jpeg",
+      "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL 1.jpeg",
+    ],
+
     description:
       "<b>ROLEX DATE JUST PLAIN BEZEL</b><br>* GENT'S COLLECTION <br>* QUARTZ MOMENT <br>* AAA GRADE QUALITY<br>* STAINLESS STEEL CHAIN BRASS CASE WITH DATEWITH POWER LOCK"
   }
 
+  ,
+
+  {
+    id: 78,
+
+    title: "Rolex Yacht-Master AAA Luxury Watch",
+
+    price: 2000,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/Yacht-Master 1.jpeg",
+      "images/smart-devices/Yacht-Master 2.jpeg",
+      "images/smart-devices/Yacht-Master 3.jpeg",
+    ],
+
+    description:
+      "<b>Rolex Yacht-Master AAA Luxury Watch</b><br>* Stylish Black Silicone Strap<br>*  Quartz Movement<br>* AAA GRADE QUALITY<br>* Bold Yacht-Master Design <br>*  Three Colour Options"
+  }
 
 
-  
+
+
 
 ];
 
