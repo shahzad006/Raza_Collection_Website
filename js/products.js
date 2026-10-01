@@ -1314,7 +1314,7 @@ const products = [
      {
     id: 72,
 
-    title: " LADIES WATCH M-6",
+    title: " LADIES WATCH M-7",
 
     price: 1500,
 
