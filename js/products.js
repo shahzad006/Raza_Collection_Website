@@ -1414,6 +1414,25 @@ const products = [
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
 
+  ,
+
+     {
+    id: 77,
+
+    title: "ROLEX DATE JUST PLAIN BEZEL",
+
+    price: 2500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL.jpeg",
+    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL 1 2.jpeg",
+],
+  
+    description:
+      "<b>ROLEX DATE JUST PLAIN BEZEL</b><br>* GENT'S COLLECTION <br>* QUARTZ MOMENT <br>* AAA GRADE QUALITY<br>* STAINLESS STEEL CHAIN BRASS CASE WITH DATEWITH POWER LOCK"
+  }
 
 
 
