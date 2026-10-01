@@ -1454,6 +1454,37 @@ const products = [
     description:
       "<b>Rolex Yacht-Master AAA Luxury Watch</b><br>* Stylish Black Silicone Strap<br>*  Quartz Movement<br>* AAA GRADE QUALITY<br>* Bold Yacht-Master Design <br>*  Three Colour Options"
   }
+  ,
+
+  {
+    id: 79,
+
+    title: "BestWIN Men’s Watch",
+
+    price: 3000,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/Best Win 1.jpeg",
+      "images/smart-devices/Best Win 2.jpeg",
+      "images/smart-devices/Best Win 3.jpeg",
+      "images/smart-devices/Best Win 4.jpeg",
+      "images/smart-devices/Best Win 5.jpeg",
+      "images/smart-devices/Best Win 6.jpeg",
+      "images/smart-devices/Best Win 7.jpeg",
+      "images/smart-devices/Best Win 8.jpeg",
+      "images/smart-devices/Best Win 9.jpeg",
+      "images/smart-devices/Best Win 10.jpeg",
+      "images/smart-devices/Best Win 11.jpeg",
+      "images/smart-devices/Best Win 12.jpeg",
+      "images/smart-devices/Best Win 13.jpeg",
+
+    ],
+
+    description:
+      "<b>BestWIN Men’s Watch</b><br>* Gents Premium Chain Watch Collection with Multiple Stylish Models<br>*Date & Non-Date Options<br>*  Working Down Seconds Models<br>* Premium Stainless Steel Chain<br>*  Butterfly Lock & Power Lock Options <br>* Elegant Dials, Durable Build, Stylish Finishing & Multiple Designs Available (WITH HIGH QUALITY BOX)"
+  }
 
 
 
