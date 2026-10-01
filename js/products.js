@@ -1362,6 +1362,31 @@ const products = [
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
+  ,
+
+     {
+    id: 75,
+
+    title: " LADIES WATCH M-9",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/Watch M-9 1.jpeg",
+    "images/smart-devices/Watch M-9 2.jpeg",
+    "images/smart-devices/Watch M-9 3.jpeg",
+    "images/smart-devices/Watch M-9 4.jpeg",
+    "images/smart-devices/Watch M-9 5.jpeg",
+    "images/smart-devices/Watch M-9 6.jpeg",
+    "images/smart-devices/Watch M-9 7.jpeg",
+    "images/smart-devices/Watch M-9 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
 
 
 
