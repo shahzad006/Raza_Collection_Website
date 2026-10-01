@@ -1511,6 +1511,25 @@ const products = [
     description:
       "<b>TISSOT FAMOUS MODEL 1853 </b><br>* CHRONOGRAPH WORKING<br>*CHRONOGRAPH WORKING<br>*LEATHER STRAP<br>* MASTER LOCK<br>*ALL SPOT DIALS WORKING ON IT<br>* PREMIUM QUALITY EVER"
   }
+  ,
+
+  {
+    id: 81,
+
+    title: "TAGHEUR WATCH FOR MEN'S ",
+
+    price: 1800,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/TAGHEUR WATCH FOR MEN'S 1.jpeg",
+      "images/smart-devices/TAGHEUR WATCH FOR MEN'S 2.jpeg",
+    ],
+
+    description:
+      "<b>TAGHEUR WATCH FOR MEN'S </b><br>* STRAP WATCH <br>* DAY & DATE <br>* LEATHER STRAP <br>* MASTER LOCK <br>* BLACK COLOUR "
+  }
 
 
 
