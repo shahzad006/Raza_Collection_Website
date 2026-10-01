@@ -1486,6 +1486,32 @@ const products = [
       "<b>BestWIN Men’s Watch</b><br>* Gents Premium Chain Watch Collection with Multiple Stylish Models<br>*Date & Non-Date Options<br>*  Working Down Seconds Models<br>* Premium Stainless Steel Chain<br>*  Butterfly Lock & Power Lock Options <br>* Elegant Dials, Durable Build, Stylish Finishing & Multiple Designs Available (WITH HIGH QUALITY BOX)"
   }
 
+  ,
+
+  {
+    id: 80,
+
+    title: "TISSOT FAMOUS MODEL 1853 ",
+
+    price: 3000,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/TISSOT 1.jpeg",
+      "images/smart-devices/TISSOT 2.jpeg",
+      "images/smart-devices/TISSOT 3.jpeg",
+      "images/smart-devices/TISSOT 4.jpeg",
+      "images/smart-devices/TISSOT 5.jpeg",
+      "images/smart-devices/TISSOT 6.jpeg",
+      "images/smart-devices/TISSOT 7.jpeg",
+
+    ],
+
+    description:
+      "<b>TISSOT FAMOUS MODEL 1853 </b><br>* CHRONOGRAPH WORKING<br>*CHRONOGRAPH WORKING<br>*LEATHER STRAP<br>* MASTER LOCK<br>*ALL SPOT DIALS WORKING ON IT<br>* PREMIUM QUALITY EVER"
+  }
+
 
 
 
