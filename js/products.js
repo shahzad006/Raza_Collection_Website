@@ -1427,7 +1427,7 @@ const products = [
 
     images: [
     "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL.jpeg",
-    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL 1 2.jpeg",
+    "images/smart-devices/ROLEX DATE JUST PLAIN BEZEL 1.jpeg",
 ],
   
     description:
