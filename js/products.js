@@ -1312,7 +1312,7 @@ const products = [
   ,
 
      {
-    id: 72,
+    id: 73,
 
     title: " LADIES WATCH M-7",
 
@@ -1329,6 +1329,34 @@ const products = [
     "images/smart-devices/Watch M-7  6.jpeg",
     "images/smart-devices/Watch M-7 7.jpeg",
     "images/smart-devices/Watch M-7 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
+
+
+  ,
+
+     {
+    id: 74,
+
+    title: " LADIES WATCH M-8",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/Watch M-8 1.jpeg",
+    "images/smart-devices/Watch M-8 2.jpeg",
+    "images/smart-devices/Watch M-8 3.jpeg",
+    "images/smart-devices/Watch M-8 4.jpeg",
+    "images/smart-devices/Watch M-8 5.jpeg",
+    "images/smart-devices/Watch M-8  6.jpeg",
+    "images/smart-devices/Watch M-8 7.jpeg",
+    "images/smart-devices/Watch M-8 8.jpeg",
 ],
   
     description:
