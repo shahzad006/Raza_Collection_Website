@@ -1601,15 +1601,16 @@ const products = [
   ,
 
   {
-    id: 84,
+    id: 85,
 
+    
     title: "R1S-L 3-in-1 Selfie Stick",
 
     price: 1700,
 
     category: "Accessories",
 
-    images: "images/accessories/R1S-L 3-in-1 Selfie Stick.jpeg",
+    image: "images/accessories/a.jpeg",
 
     description:
       "<b>R1S-L 3-in-1 Selfie Stick</b><br>*Tripod & Stand Function <br>*  360° Rotation <br>* Extendable Up to 70cm <br>* Adjustable Phone Holder <br>* Stable Tripod Base & Optional Bluetooth Remote with Built in LED Light (Box Pack)"
