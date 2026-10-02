@@ -1574,6 +1574,29 @@ const products = [
       "<b>BLUK’S BX-193 RGB Speaker</b><br>*1200mAh Battery<br>* Colorful RGB Lights<br>* TWS Connection<br>*AUX Input<br>*USB & Micro SD Card Support (Box Pack)"
   }
 
+  ,
+
+  {
+    id: 84,
+
+    title: "A9 Pro Led Screen Airpords",
+
+    price: 1750,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/A9 Pro Led Screen Airpords 1.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 2.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 3.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 4.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 5.jpeg",
+    ],
+
+    description:
+      "<b>A9 Pro Led Screen Airpords</b><br>*Black Colour Box Packing"
+  }
+
 
 
 
