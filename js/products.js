@@ -754,7 +754,7 @@ const products = [
 
     title: "FoneStop 20,000MAH",
 
-    price: 3300,
+    price: 3500,
 
     category: "Accessories",
 
