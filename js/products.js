@@ -1554,6 +1554,26 @@ const products = [
       "<b>P9 Pro Max Headphones with Hi-Fi Stereo Sound</b><br>* Bluetooth 5.3<br>*  Built-in Microphone<br>* Hands-Free Calling<br>*Soft & Comfortable Ear Pads<br>*Foldable Design <br>* Easy Control Buttons <br>* Available in Multiple Colours (Box Pack) (Random Colours)"
   }
 
+  ,
+
+  {
+    id: 83,
+
+    title: "BLUK’S BX-193 RGB Speaker",
+
+    price: 2500,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUK’S BX-193 RGB Speaker 2.jpeg",
+      "images/accessories/BLUK’S BX-193 RGB Speaker 1.jpeg",
+    ],
+
+    description:
+      "<b>BLUK’S BX-193 RGB Speaker</b><br>*1200mAh Battery<br>* Colorful RGB Lights<br>* TWS Connection<br>*AUX Input<br>*USB & Micro SD Card Support (Box Pack)"
+  }
+
 
 
 
