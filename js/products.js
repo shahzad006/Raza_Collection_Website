@@ -248,7 +248,7 @@ const products = [
 
     title: "i11 Pro Max",
 
-    price: 1650,
+    price: 2500,
 
     category: "Watches",
 
