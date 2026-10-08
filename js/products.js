@@ -1740,6 +1740,34 @@ const products = [
   }
 
 
+,
+  {
+    id: 91,
+
+    title: "College & University High Quality Bag",
+
+    price: 1800,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/High Quality Bag 1.jpeg",
+      "images/Bags/High Quality Bag 2.jpeg",
+      "images/Bags/High Quality Bag 3.jpeg",
+      "images/Bags/High Quality Bag 4.jpeg",
+      "images/Bags/High Quality Bag 5.jpeg",
+      "images/Bags/High Quality Bag 6.jpeg",
+      "images/Bags/High Quality Bag 7.jpeg",
+      "images/Bags/High Quality Bag 8.jpeg",
+      "images/Bags/High Quality Bag 9.jpeg",
+      "images/Bags/High Quality Bag 10.jpeg",
+    ],
+
+    description:
+      "<b>Imported Foldable Girls College & University High Quality Bag 💫</b><br><br><b>Material:</b> Waterproof Parachute Material<br><b>Pocket:</b> Back Pocket<br><b>Size:</b> Large + Extra Folding<br><b>Colors:</b> 6 Lovely Colours<br><b>Carrying:</b> Easy to Carry<br><b>Weight:</b> Light Weight"
+  }
+
+
 
 
 ];
