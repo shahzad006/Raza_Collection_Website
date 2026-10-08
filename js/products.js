@@ -2298,6 +2298,34 @@ const products = [
     description:
       "<b>Louis Vuitton Brand Small Top Zipper Wallet with Cardholder</b><br><br><b>Size:</b> Small & Decent Size<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Colors:</b> Black 🖤, Brown 🤎<br><b>Note:</b> Watch Video for Inner Settings"
   }
+  ,
+
+
+  {
+    id: 111,
+
+    title: "Girls Shoulder & Cross Body Bag",
+
+    price: 3250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Shoulder and Cross body 1.jpeg",
+      "images/Bags/Shoulder and Cross body 2.jpeg",
+      "images/Bags/Shoulder and Cross body 3.jpeg",
+      "images/Bags/Shoulder and Cross body 4.jpeg",
+      "images/Bags/Shoulder and Cross body 5.jpeg",
+      "images/Bags/Shoulder and Cross body 6.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>New Arrivals Imported Girls Shoulder & Cross Body Bag</b><br><br><b>Type:</b> Shoulder & Cross Body Bag<br><b>Quality:</b> AAA Quality<br><b>Strap:</b> Long Strap<br><b>Accessory:</b> Keychain<br><b>Collection:</b> Imported Item<br><b>Demand:</b> Hot Trending Item"
+  }
 
 
 
