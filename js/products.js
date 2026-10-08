@@ -899,13 +899,13 @@ const products = [
   {
     id: 53,
 
-    title: "BLUKS BX 607",
+    title: "BLUKS BX 607s",
 
     price: 4300,
 
     category: "Accessories",
 
-    image: "images/accessories/BLUKS BX 607.jpeg",
+    image: "images/accessories/BLUKS BX 607 4.jpeg",
 
     description:
       "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
@@ -1944,6 +1944,33 @@ const products = [
 
     description:
       "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Type:</b> 2 Zipper Cross Body Bag<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
+  }
+
+  ,
+  {
+    id: 99,
+
+    title: "Roncato Premium PP Vanity Case",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Travel Bag 1.jpeg",
+      "images/Bags/Travel Bag 2.jpeg",
+      "images/Bags/Travel Bag 3.jpeg",
+      "images/Bags/Travel Bag 4.jpeg",
+      "images/Bags/Travel Bag 5.jpeg",
+      "images/Bags/Travel Bag 6.jpeg",
+      "images/Bags/Travel Bag 7.jpeg",
+      "images/Bags/Travel Bag 8.jpeg",
+      "images/Bags/Travel Bag 9.jpeg",
+
+    ],
+
+    description:
+      "<b>Roncato Premium PP Vanity Case ✨</b><br><br><b>Material:</b> Premium PP Material<br><b>Shell:</b> 100% Unbreakable Hard Shell<br><b>Interior:</b> Spacious Interior with Organized Compartments<br><b>Closure:</b> Dual Zipper Closure<br><b>Weight:</b> Lightweight & Easy to Carry<br><b>Suitable For:</b> Makeup, Toiletries & Travel Essentials<br><b>Colors:</b> Multiple Elegant Colors<br><b>Size:</b> Large"
   }
 
 
