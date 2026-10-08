@@ -2235,6 +2235,38 @@ const products = [
   }
 
 
+  ,
+  {
+    id: 109,
+
+    title: "Cross Body Bag for Girls",
+
+    price: 1550,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Cross Body Bag 1.jpeg",
+      "images/Bags/Cross Body Bag 2.jpeg",
+      "images/Bags/Cross Body Bag 3.jpeg",
+      "images/Bags/Cross Body Bag 4.jpeg",
+      "images/Bags/Cross Body Bag 5.jpeg",
+      "images/Bags/Cross Body Bag 6.jpeg",
+      "images/Bags/Cross Body Bag 7.jpeg",
+      "images/Bags/Cross Body Bag 8.jpeg",
+      "images/Bags/Cross Body Bag 9.jpeg",
+      "images/Bags/Cross Body Bag 10.jpeg",
+      "images/Bags/Cross Body Bag 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique & Sleek Design<br><b>Quality:</b> Premium Quality<br><b>Strap:</b> Long Strap<br><b>Size:</b> Small<br><b>Pocket:</b> Single Pocket"
+  }
+
+
 
 ];
 
