@@ -1712,6 +1712,32 @@ const products = [
     description:
       "<b>BLUKS BX-606 NANO BUDS 🎧</b><br><br><b>Noise Cancellation:</b> ENC Noise Cancellation<br><b>Sound:</b> Powerful Bass<br><b>Latency:</b> 70ms Low Latency<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Battery:</b> Long Battery Life<br><b>Calling:</b> Crystal Clear Calling<br><b>Bluetooth:</b> Bluetooth 6.0<br><b>Design:</b> Compact Yet Powerful Design<br><b>Perfect For:</b> Daily Use, Travel & Commute, Gaming & Streaming, Calls & Meetings<br><b>Warranty:</b> One Year Warranty"
   }
+,
+  {
+    id: 90,
+
+    title: "Coach Unique Frame Cross Body Bag for Girls",
+
+    price: 2000,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Body Bag for Girls 1.jpeg",
+      "images/Bags/Body Bag for Girls 2.jpeg",
+      "images/Bags/Body Bag for Girls 3.jpeg",
+      "images/Bags/Body Bag for Girls 4.jpeg",
+      "images/Bags/Body Bag for Girls 5.jpeg",
+      "images/Bags/Body Bag for Girls 6.jpeg",
+      "images/Bags/Body Bag for Girls 7.jpeg",
+      "images/Bags/Body Bag for Girls 8.jpeg",
+      "images/Bags/Body Bag for Girls 9.jpeg",
+      "images/Bags/Body Bag for Girls 10.jpeg",
+    ],
+
+    description:
+      "<b>Coach Unique Frame Cross Body Bag for Girls 🎀</b><br><br><b>Quality:</b> Good Quality<br><b>Type:</b> Cross Body Bag<br><b>Design:</b> Unique Design<br><b>Size:</b> Medium<br><b>Colors:</b> 8"
+  }
 
 
 
