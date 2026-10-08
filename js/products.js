@@ -2203,6 +2203,37 @@ const products = [
       "<b>New Luxury Rhinestone Diamonds PU Leather Shoulder Handbag for Girls 😍</b><br><br><b>Material:</b> PU Leather<br><b>Design:</b> Rhinestone Diamonds<br><b>Style:</b> Luxury Shoulder Handbag<br><b>Quality:</b> Amazing Branded Bag<br><b>Collection:</b> Restock / New Arrival"
   }
 
+  ,
+  {
+    id: 108,
+
+    title: "Shoulder Handbags For Girls",
+
+    price: 1550,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Body Bag 1.jpeg",
+      "images/Bags/Body Bag 2.jpeg",
+      "images/Bags/Body Bag 3.jpeg",
+      "images/Bags/Body Bag 4.jpeg",
+      "images/Bags/Body Bag 5.jpeg",
+      "images/Bags/Body Bag 6.jpeg",
+      "images/Bags/Body Bag 7.jpeg",
+      "images/Bags/Body Bag 8.jpeg",
+      "images/Bags/Body Bag 9.jpeg",
+      "images/Bags/Body Bag 10.jpeg",
+  
+
+
+
+    ],
+
+    description:
+      "<b>New Bow Style Cross Body Bag for Girls ❤️</b><br><br><b>Quality:</b> Good Quality<br><b>Design:</b> Beautiful Front Bow Style<br><b>Material:</b> Velvet<br><b>Capacity:</b> Good Capacity<br><b>Colors:</b> 8 Colours<br><b>Style:</b> Multiple Colors<br><b>Demand:</b> Most Demanding"
+  }
+
 
 
 ];
