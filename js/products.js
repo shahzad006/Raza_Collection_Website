@@ -1890,6 +1890,36 @@ const products = [
 
 
 
+  ,
+  {
+    id: 97,
+
+    title: "Imported Wallet Style Cross Body Bag  for Girls",
+
+    price: 2450,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Bag  for Girls 1.jpeg",
+      "images/Bags/Bag  for Girls 2.jpeg",
+      "images/Bags/Bag  for Girls 3.jpeg",
+      "images/Bags/Bag  for Girls 4.jpeg",
+      "images/Bags/Bag  for Girls 5.jpeg",
+      "images/Bags/Bag  for Girls 6.jpeg",
+      "images/Bags/Bag  for Girls 7.jpeg",
+      "images/Bags/Bag  for Girls 8.jpeg",
+      "images/Bags/Bag  for Girls 9.jpeg",
+      "images/Bags/Bag  for Girls 10.jpeg",
+
+    ],
+
+    description:
+      "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Type:</b> 2 Zipper Cross Body Bag<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
+  }
+
+
+
 ];
 
 
