@@ -2419,6 +2419,40 @@ const products = [
       "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
   }
 
+  ,
+
+  {
+    id: 115,
+
+    title: "Customised Armani Couple Watch",
+
+    price: 1650,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/Customised Armani Couple Watch 1.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 2.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 3.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 4.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 5.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 6.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 7.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 8.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 9.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 10.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 11.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 12.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 13.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 14.jpeg",
+      
+    ],
+
+    description:
+      "<b>Customised Armani Couple Watch ⌚</b><br><br><b>Box:</b> With Normal Box<br><b>Colors:</b> Black, Brown, Blue<br><b>Making Time:</b> 1 to 3 Working Days<br><b>Single Price:</b> Rs. 1100/- with Normal Box<br><b>Pair Price:</b> Rs. 1650/- with Normal Box<br><b>Customization:</b> Face Wali Picture Bhi Lag Jayegi"
+  }
+  
+
 
 
 
