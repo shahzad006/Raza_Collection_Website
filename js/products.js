@@ -1864,6 +1864,28 @@ const products = [
     description:
       "<b>NEW CHRISTIAN DUOR HAND BAG WITH KEYCHAIN FOR GIRLS 🌸</b><br><br><b>Style:</b> Stylish & Fashionable<br><b>Carry:</b> Easy to Carry<br><b>Capacity:</b> Good Capacity<br><b>Design:</b> Elegant Design<br><b>Type:</b> Shoulder Carry<br><b>Colors:</b> 7<br><b>Demand:</b> Most Demanding 💞"
   }
+,
+  {
+    id: 96,
+
+    title: "ZARA Bow Heels",
+
+    price: 2500,
+
+    category: "Clippers",
+
+    images: [
+      "images/Clippers/ZARA Bow Heels 1.jpeg",
+      "images/Clippers/ZARA Bow Heels 2.jpeg",
+      "images/Clippers/ZARA Bow Heels 3.jpeg",
+      "images/Clippers/ZARA Bow Heels 4.jpeg",
+      "images/Clippers/ZARA Bow Heels 5.jpeg",
+
+    ],
+
+    description:
+      "<b>ZARA Bow Heels 👠</b><br><br><b>Sizes:</b> 36, 37, 38, 39, 40, 41<br><b>Box:</b> With Brand Box 📦<br><b>Collection:</b> New Arrival"
+  }
 
 
 
