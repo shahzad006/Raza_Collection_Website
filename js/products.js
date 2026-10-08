@@ -1691,6 +1691,27 @@ const products = [
     description:
       "<b>BLUKS BX 607 BEATSCAPE EARBUDS</b><br><br><b>Noise Cancellation:</b> Environmental Noise Cancellation (ENC)<br><b>Design:</b> Luxury Leather-Texture Design<br><b>Sound:</b> Powerful Bass & Immersive Modes<br><b>Modes:</b> Bass Mode, Theater Mode & Music Mode<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Warranty:</b> One Year Warranty"
   }
+,
+  {
+    id: 89,
+
+    title: "BLUKS BX-606 NANO BUDS",
+
+    price: 3900,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUKS BX-606 NANO BUD 1.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 2.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 3.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 4.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 5.jpeg",
+    ],
+
+    description:
+      "<b>BLUKS BX-606 NANO BUDS 🎧</b><br><br><b>Noise Cancellation:</b> ENC Noise Cancellation<br><b>Sound:</b> Powerful Bass<br><b>Latency:</b> 70ms Low Latency<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Battery:</b> Long Battery Life<br><b>Calling:</b> Crystal Clear Calling<br><b>Bluetooth:</b> Bluetooth 6.0<br><b>Design:</b> Compact Yet Powerful Design<br><b>Perfect For:</b> Daily Use, Travel & Commute, Gaming & Streaming, Calls & Meetings<br><b>Warranty:</b> One Year Warranty"
+  }
 
 
 
