@@ -2142,6 +2142,32 @@ const products = [
     description:
       "<b>High Quality Crocodile Leather Tote Bag</b><br><br><b>Material:</b> Crocodile Leather<br><b>Accessory:</b> Ribbon Scarf<br><b>Inside:</b> Inside Pocket<br><b>Shades:</b> 2 Shades Available"
   }
+  ,
+  {
+    id: 106,
+
+    title: "DIOR NEW CROSS BODY BAG FOR GIRLS",
+
+    price: 1500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/CROSS BODY BAG FOR GIRL 1.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 2.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 3.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 4.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 5.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 6.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 7.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>DIOR New Cross Body Bag for Girls 💝</b><br><br><b>Type:</b> Cross Body Bag<br><b>Material:</b> PU<br><b>Zippers:</b> 3 Zippers<br><b>Strap:</b> Long Strap<br><b>Carrying:</b> Easy to Carry<br><b>Colors:</b> 8<br><b>Demand:</b> Most Demanding Article"
+  }
 
 
 
