@@ -1639,6 +1639,37 @@ const products = [
   }
 
 
+   ,
+
+  {
+    id: 87,
+
+    title: "ROLEX Date with Power Lock",
+
+    price: 2500,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/ROLEX Date with Power Lock 1.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 2.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 3.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 4.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 5.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 6.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 7.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 8.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 9.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 10.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 11.jpeg",
+
+    ],
+
+    description:
+      "<b>ROLEX Date with Power Lock Premium Gents Watch</b><br><br><b>Dial:</b> Elegant Premium Dial Design<br><b>Bezel:</b> Fluted Bezel<br><b>Strap:</b> Green Crocodile Pattern Leather Strap<br><b>Display:</b> Date Display<br><b>Hour Markers:</b> Stylish Diamond-Style Hour Markers<br><b>Lock:</b> Strong Power Lock<br><b>Finishing:</b> Luxury Finishing<br><b>Box:</b> With ROLEX Name Box 📦"
+  }
+
+
 
 
 
