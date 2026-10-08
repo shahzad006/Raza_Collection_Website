@@ -1837,6 +1837,35 @@ const products = [
   }
 
 
+,
+  {
+    id: 95,
+
+    title: "HAND BAG WITH KEYCHAIN FOR GIRLS",
+
+    price: 1750,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Stylish & Fashionable 2.jpeg",
+      "images/Bags/Stylish & Fashionable 1.jpeg",
+      "images/Bags/Stylish & Fashionable 3.jpeg",
+      "images/Bags/Stylish & Fashionable 4.jpeg",
+      "images/Bags/Stylish & Fashionable 5.jpeg",
+      "images/Bags/Stylish & Fashionable 6.jpeg",
+      "images/Bags/Stylish & Fashionable 7.jpeg",
+      "images/Bags/Stylish & Fashionable 8.jpeg",
+      "images/Bags/Stylish & Fashionable 9.jpeg",
+      "images/Bags/Stylish & Fashionable 10.jpeg",
+
+    ],
+
+    description:
+      "<b>NEW CHRISTIAN DUOR HAND BAG WITH KEYCHAIN FOR GIRLS 🌸</b><br><br><b>Style:</b> Stylish & Fashionable<br><b>Carry:</b> Easy to Carry<br><b>Capacity:</b> Good Capacity<br><b>Design:</b> Elegant Design<br><b>Type:</b> Shoulder Carry<br><b>Colors:</b> 7<br><b>Demand:</b> Most Demanding 💞"
+  }
+
+
 
 
 ];
