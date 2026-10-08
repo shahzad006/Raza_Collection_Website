@@ -2118,6 +2118,30 @@ const products = [
     description:
       "<b>High Quality Burberry Print College Backpack for Girls 🎀</b><br><br><b>Look:</b> Attractive Look<br><b>Colors:</b> 7 Attractive Colors<br><b>Pockets:</b> Multiple Pockets<br><b>Quality:</b> Good Quality<br><b>Zippers:</b> 3 Zippers<br><b>Collection:</b> Imported Collection"
   }
+  ,
+  {
+    id: 105,
+
+    title: "High Quality Crocodile Leather sTote Bag for Girls",
+
+    price: 2250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Crocodile Leather sTote Bag 1.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 2.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 3.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 4.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 5.jpeg",
+      
+
+
+    ],
+
+    description:
+      "<b>High Quality Crocodile Leather Tote Bag</b><br><br><b>Material:</b> Crocodile Leather<br><b>Accessory:</b> Ribbon Scarf<br><b>Inside:</b> Inside Pocket<br><b>Shades:</b> 2 Shades Available"
+  }
 
 
 
