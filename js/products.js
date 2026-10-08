@@ -2171,6 +2171,40 @@ const products = [
 
 
 
+
+  ,
+  {
+    id: 107,
+
+    title: "Shoulder Handbags For Girls",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Shoulder handbags for girls 1.jpeg",
+      "images/Bags/Shoulder handbags for girls 2.jpeg",
+      "images/Bags/Shoulder handbags for girls 3.jpeg",
+      "images/Bags/Shoulder handbags for girls 4.jpeg",
+      "images/Bags/Shoulder handbags for girls 5.jpeg",
+      "images/Bags/Shoulder handbags for girls 6.jpeg",
+      "images/Bags/Shoulder handbags for girls 7.jpeg",
+      "images/Bags/Shoulder handbags for girls 8.jpeg",
+      "images/Bags/Shoulder handbags for girls 9.jpeg",
+      "images/Bags/Shoulder handbags for girls 10.jpeg",
+      "images/Bags/Shoulder handbags for girls 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>New Luxury Rhinestone Diamonds PU Leather Shoulder Handbag for Girls 😍</b><br><br><b>Material:</b> PU Leather<br><b>Design:</b> Rhinestone Diamonds<br><b>Style:</b> Luxury Shoulder Handbag<br><b>Quality:</b> Amazing Branded Bag<br><b>Collection:</b> Restock / New Arrival"
+  }
+
+
+
 ];
 
 
