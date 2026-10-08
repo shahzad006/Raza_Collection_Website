@@ -2031,6 +2031,38 @@ const products = [
   }
 
 
+  ,
+  {
+    id: 102,
+
+    title: "Bovis Star Button High Quality Top Zipper Wallet",
+
+    price: 1250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Zipper Walle 1.jpeg",
+      "images/Bags/Zipper Walle 2.jpeg",
+      "images/Bags/Zipper Walle 3.jpeg",
+      "images/Bags/Zipper Walle 4.jpeg",
+      "images/Bags/Zipper Walle 5.jpeg",
+      "images/Bags/Zipper Walle 6.jpeg",
+      "images/Bags/Zipper Walle 7.jpeg",
+      "images/Bags/Zipper Walle 8.jpeg",
+      "images/Bags/Zipper Walle 9.jpeg",
+      "images/Bags/Zipper Walle 10.jpeg",
+      "images/Bags/Zipper Walle 11.jpeg",
+  
+
+
+    ],
+
+    description:
+      "<b>Bovis Star Button High Quality Top Zipper Wallet with Cardholder</b><br><br><b>Quality:</b> High Quality<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Pockets:</b> Extra Hidden Pockets<br><b>Colors:</b> Black 🖤, Brown 🤎, Camel 🐫<br><b>Note:</b> Watch Video for Inner Settings"
+  }
+
+
 
 ];
 
