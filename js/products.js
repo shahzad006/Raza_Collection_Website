@@ -1668,7 +1668,29 @@ const products = [
     description:
       "<b>ROLEX Date with Power Lock Premium Gents Watch</b><br><br><b>Dial:</b> Elegant Premium Dial Design<br><b>Bezel:</b> Fluted Bezel<br><b>Strap:</b> Green Crocodile Pattern Leather Strap<br><b>Display:</b> Date Display<br><b>Hour Markers:</b> Stylish Diamond-Style Hour Markers<br><b>Lock:</b> Strong Power Lock<br><b>Finishing:</b> Luxury Finishing<br><b>Box:</b> With ROLEX Name Box 📦"
   }
+,
+  {
+    id: 88,
 
+    title: "BLUKS BX 607 BEATSCAPE EARBUDS",
+
+    price: 4000,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUKS BX 607 1.jpeg",
+      "images/accessories/BLUKS BX 607 2.jpeg",
+      "images/accessories/BLUKS BX 607 3.jpeg",
+      "images/accessories/BLUKS BX 607 4.jpeg",
+      "images/accessories/BLUKS BX 607 5.jpeg",
+      "images/accessories/BLUKS BX 607 6.jpeg",
+      "images/accessories/BLUKS BX 607 7.jpeg",
+    ],
+
+    description:
+      "<b>BLUKS BX 607 BEATSCAPE EARBUDS</b><br><br><b>Noise Cancellation:</b> Environmental Noise Cancellation (ENC)<br><b>Design:</b> Luxury Leather-Texture Design<br><b>Sound:</b> Powerful Bass & Immersive Modes<br><b>Modes:</b> Bass Mode, Theater Mode & Music Mode<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Warranty:</b> One Year Warranty"
+  }
 
 
 
