@@ -2329,6 +2329,37 @@ const products = [
 
 
 
+  ,
+
+
+  {
+    id: 112,
+
+    title: "Michael Kors MK Flat Slipper",
+
+    price: 2500,
+
+    category: "Clippers",
+
+    images: [
+      "images/Clippers//Michael Kors MK Flat Slipper 1.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 2.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 3.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 4.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 5.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 6.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>Michael Kors MK Flat Slipper</b><br><br><b>Model:</b> Official Model<br><b>Sizes:</b> 37 To 42<br><b>Comfort:</b> Soft & Comfortable<br><b>Style:</b> Just Like Medicated<br><b>Box:</b> With Brand Box 📦<br><b>Collection:</b> New Arrival"
+  }
+
+
+
 ];
 
 
