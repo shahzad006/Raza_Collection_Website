@@ -2093,6 +2093,32 @@ const products = [
       "<b>Imported PINK Girls Travelling College & University High Quality Bag 💫</b><br><br><b>Origin:</b> Made in China 🇨🇳<br><b>Type:</b> Tote Bag<br><b>Quality:</b> Imported Quality<br><b>Material:</b> Waterproof Parachute Material<br><b>Space:</b> Extra Space<br><b>Pocket:</b> Front Pocket<br><b>Size:</b> Large Folding<br><b>Colors:</b> 8 Lovely Colours<br><b>Carrying:</b> Easy to Carry<br><b>Weight:</b> Light Weight"
   }
 
+  ,
+  {
+    id: 104,
+
+    title: "Print College Backpack For Girls",
+
+    price: 2250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Print College Backpack 1.jpeg",
+      "images/Bags/Print College Backpack 2.jpeg",
+      "images/Bags/Print College Backpack 3.jpeg",
+      "images/Bags/Print College Backpack 4.jpeg",
+      "images/Bags/Print College Backpack 5.jpeg",
+      "images/Bags/Print College Backpack 6.jpeg",
+      "images/Bags/Print College Backpack 7.jpeg",
+
+
+    ],
+
+    description:
+      "<b>High Quality Burberry Print College Backpack for Girls 🎀</b><br><br><b>Look:</b> Attractive Look<br><b>Colors:</b> 7 Attractive Colors<br><b>Pockets:</b> Multiple Pockets<br><b>Quality:</b> Good Quality<br><b>Zippers:</b> 3 Zippers<br><b>Collection:</b> Imported Collection"
+  }
+
 
 
 ];
