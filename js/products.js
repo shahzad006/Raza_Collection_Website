@@ -2062,6 +2062,37 @@ const products = [
       "<b>Bovis Star Button High Quality Top Zipper Wallet with Cardholder</b><br><br><b>Quality:</b> High Quality<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Pockets:</b> Extra Hidden Pockets<br><b>Colors:</b> Black 🖤, Brown 🤎, Camel 🐫<br><b>Note:</b> Watch Video for Inner Settings"
   }
 
+  ,
+  {
+    id: 103,
+
+    title: "Girls TRAVELLING College & University High Quality Bag",
+
+    price: 1750,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/TRAVELLING Bag 1.jpeg",
+      "images/Bags/TRAVELLING Bag 2.jpeg",
+      "images/Bags/TRAVELLING Bag 3.jpeg",
+      "images/Bags/TRAVELLING Bag 4.jpeg",
+      "images/Bags/TRAVELLING Bag 5.jpeg",
+      "images/Bags/TRAVELLING Bag 6.jpeg",
+      "images/Bags/TRAVELLING Bag 7.jpeg",
+      "images/Bags/TRAVELLING Bag 8.jpeg",
+      "images/Bags/TRAVELLING Bag 9.jpeg",
+      "images/Bags/TRAVELLING Bag 10.jpeg",
+      "images/Bags/TRAVELLING Bag 11.jpeg",
+      "images/Bags/TRAVELLING Bag 12.jpeg"
+
+
+    ],
+
+    description:
+      "<b>Imported PINK Girls Travelling College & University High Quality Bag 💫</b><br><br><b>Origin:</b> Made in China 🇨🇳<br><b>Type:</b> Tote Bag<br><b>Quality:</b> Imported Quality<br><b>Material:</b> Waterproof Parachute Material<br><b>Space:</b> Extra Space<br><b>Pocket:</b> Front Pocket<br><b>Size:</b> Large Folding<br><b>Colors:</b> 8 Lovely Colours<br><b>Carrying:</b> Easy to Carry<br><b>Weight:</b> Light Weight"
+  }
+
 
 
 ];
