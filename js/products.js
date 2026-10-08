@@ -1810,7 +1810,7 @@ const products = [
     ],
 
     description:
-      "<b>Mother Multiple Pockets Bag 🎀</b><br><br><b>Closure:</b> 1 Centre Zipper<br><b>Size:</b> 12 × 16 Inch<br><b>Pockets:</b> Multiple Pockets<br><b>Front Pockets:</b> 2 Front Pockets<br><b>Material:</b> Parachute<br><b>Weight:</b> Light Weight"
+      "<b>High Quality Beauty Box</b><br><br><b>Brands:</b> Ricardo & Instagon<br><b>Inside Pocket:</b> Net Pocket<br><b>Inside Design:</b> Separate Portion<br><b>Carry Support:</b> Trolley Carry Support on Back<br><b>Quality:</b> High Quality"
   }
 
 
