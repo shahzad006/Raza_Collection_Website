@@ -1792,6 +1792,27 @@ const products = [
       "<b>Mother Multiple Pockets Bag 🎀</b><br><br><b>Closure:</b> 1 Centre Zipper<br><b>Size:</b> 12 × 16 Inch<br><b>Pockets:</b> Multiple Pockets<br><b>Front Pockets:</b> 2 Front Pockets<br><b>Material:</b> Parachute<br><b>Weight:</b> Light Weight"
   }
 
+,
+  {
+    id: 93,
+
+    title: "High Quality Beauty Box",
+
+    price: 2150,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/High Quality Beauty Box 1.jpeg",
+      "images/Bags/High Quality Beauty Box 2.jpeg",
+      "images/Bags/High Quality Beauty Box 3.jpeg",
+      "images/Bags/High Quality Beauty Box 4.jpeg",
+    ],
+
+    description:
+      "<b>Mother Multiple Pockets Bag 🎀</b><br><br><b>Closure:</b> 1 Centre Zipper<br><b>Size:</b> 12 × 16 Inch<br><b>Pockets:</b> Multiple Pockets<br><b>Front Pockets:</b> 2 Front Pockets<br><b>Material:</b> Parachute<br><b>Weight:</b> Light Weight"
+  }
+
 
 
 
