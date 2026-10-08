@@ -1973,6 +1973,30 @@ const products = [
       "<b>Roncato Premium PP Vanity Case ✨</b><br><br><b>Material:</b> Premium PP Material<br><b>Shell:</b> 100% Unbreakable Hard Shell<br><b>Interior:</b> Spacious Interior with Organized Compartments<br><b>Closure:</b> Dual Zipper Closure<br><b>Weight:</b> Lightweight & Easy to Carry<br><b>Suitable For:</b> Makeup, Toiletries & Travel Essentials<br><b>Colors:</b> Multiple Elegant Colors<br><b>Size:</b> Large"
   }
 
+  ,
+  {
+    id: 100,
+
+    title: "New Ysl Cross Body Bag for Girls",
+
+    price: 1850,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Cross Body Bag for Girls 1.jpeg",
+      "images/Bags/Cross Body Bag for Girls 2.jpeg",
+      "images/Bags/Cross Body Bag for Girls 3.jpeg",
+      "images/Bags/Cross Body Bag for Girls 4.jpeg",
+      "images/Bags/Cross Body Bag for Girls 5.jpeg",
+      "images/Bags/Cross Body Bag for Girls 6.jpeg",
+
+    ],
+
+    description:
+      "<b>New YSL Cross Body Bag for Girls 🎀</b><br><br><b>Quality:</b> Good Quality<br><b>Capacity:</b> Mobile Fits Easily<br><b>Size:</b> Small<br><b>Material:</b> Shiny Leather<br><b>Colors:</b> 4<br><b>Collection:</b> New Arrival"
+  }
+
 
 
 ];
