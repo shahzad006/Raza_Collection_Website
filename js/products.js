@@ -1998,6 +1998,39 @@ const products = [
   }
 
 
+  ,
+  {
+    id: 101,
+
+    title: "Girls Crossbody Bag",
+
+    price: 1450,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/girls crossbody bag 1.jpeg",
+      "images/Bags/girls crossbody bag 2.jpeg",
+      "images/Bags/girls crossbody bag 3.jpeg",
+      "images/Bags/girls crossbody bag 4.jpeg",
+      "images/Bags/girls crossbody bag 5.jpeg",
+      "images/Bags/girls crossbody bag 6.jpeg",
+      "images/Bags/girls crossbody bag 7.jpeg",
+      "images/Bags/girls crossbody bag 8.jpeg",
+      "images/Bags/girls crossbody bag 9.jpeg",
+      "images/Bags/girls crossbody bag 10.jpeg",
+      "images/Bags/girls crossbody bag 11.jpeg",
+      "images/Bags/girls crossbody bag 12.jpeg",
+      "images/Bags/girls crossbody bag 13.jpeg",
+      "images/Bags/girls crossbody bag 14.jpeg",
+
+    ],
+
+    description:
+      "<b>New Arrival Girls Crossbody Bag 🎀</b><br><br><b>Quality:</b> A++ Quality<br><b>Price:</b> Good Price<br><b>Pockets:</b> 2 Front Pockets + 1 Back Pocket<br><b>Strap:</b> Long Strap"
+  }
+
+
 
 ];
 
