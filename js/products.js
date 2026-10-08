@@ -1813,6 +1813,29 @@ const products = [
       "<b>High Quality Beauty Box</b><br><br><b>Brands:</b> Ricardo & Instagon<br><b>Inside Pocket:</b> Net Pocket<br><b>Inside Design:</b> Separate Portion<br><b>Carry Support:</b> Trolley Carry Support on Back<br><b>Quality:</b> High Quality"
   }
 
+,
+  {
+    id: 94,
+
+    title: "KIDS SCHOOL BAG",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/KIDS SCHOOL BAG 1.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 2.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 3.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 4.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 5.jpeg",
+
+    ],
+
+    description:
+      "<b>Kids School Bag 🛍️</b><br><br><b>Material:</b> High Quality Parachute Material<br><b>Waterproof:</b> Waterproof<br><b>Size:</b> 18 × 14<br><b>Pockets:</b> 5 Zip Pockets<br><b>Colors:</b> 5 Elegant Colours<br><b>Suitable For:</b> Class 5 Till 10"
+  }
+
 
 
 
