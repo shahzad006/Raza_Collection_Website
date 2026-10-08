@@ -2359,6 +2359,38 @@ const products = [
   }
 
 
+    ,
+
+
+  {
+    id: 113,
+
+    title: "High Quality Cow Leather Spacious Wallet with Cardholder",
+
+    price: 1200,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Wallets Plus Cardholde 1.jpeg",
+      "images/Bags/Wallets Plus Cardholde 2.jpeg",
+      "images/Bags/Wallets Plus Cardholde 3.jpeg",
+      "images/Bags/Wallets Plus Cardholde 4.jpeg",
+      "images/Bags/Wallets Plus Cardholde 5.jpeg",
+      "images/Bags/Wallets Plus Cardholde 6.jpeg",
+      "images/Bags/Wallets Plus Cardholde 7.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>High Quality Cow Leather Spacious Wallet with Cardholder</b><br><br><b>Material:</b> 100% Real Cow Leather<br><b>Quality:</b> Very High Quality<br><b>Capacity:</b> Very Spacious<br><b>Features:</b> Wallet + Cardholder<br><b>Colors:</b> Black 🖤, Brown 🤎"
+  }
+
+
+
 
 ];
 
