@@ -1768,6 +1768,31 @@ const products = [
   }
 
 
+,
+  {
+    id: 92,
+
+    title: "Quality Bag",
+
+    price: 1300,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Mother Multiple Pockets 1.jpeg",
+      "images/Bags/Mother Multiple Pockets 2.jpeg",
+      "images/Bags/Mother Multiple Pockets 3.jpeg",
+      "images/Bags/Mother Multiple Pockets 4.jpeg",
+      "images/Bags/Mother Multiple Pockets 5.jpeg",
+      "images/Bags/Mother Multiple Pockets 6.jpeg",
+      "images/Bags/Mother Multiple Pockets 7.jpeg",
+    ],
+
+    description:
+      "<b>Mother Multiple Pockets Bag 🎀</b><br><br><b>Closure:</b> 1 Centre Zipper<br><b>Size:</b> 12 × 16 Inch<br><b>Pockets:</b> Multiple Pockets<br><b>Front Pockets:</b> 2 Front Pockets<br><b>Material:</b> Parachute<br><b>Weight:</b> Light Weight"
+  }
+
+
 
 
 ];
