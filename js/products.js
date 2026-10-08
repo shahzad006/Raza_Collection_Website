@@ -2266,6 +2266,39 @@ const products = [
       "<b>Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique & Sleek Design<br><b>Quality:</b> Premium Quality<br><b>Strap:</b> Long Strap<br><b>Size:</b> Small<br><b>Pocket:</b> Single Pocket"
   }
 
+  ,
+
+
+  {
+    id: 110,
+
+    title: "Cross Body Bag for Girls",
+
+    price: 800,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Top zipper Wallet 2.jpeg",
+      "images/Bags/Top zipper Wallet 1.jpeg",
+      "images/Bags/Top zipper Wallet 3.jpeg",
+      "images/Bags/Top zipper Wallet 4.jpeg",
+      "images/Bags/Top zipper Wallet 5.jpeg",
+      "images/Bags/Top zipper Wallet 6.jpeg",
+      "images/Bags/Top zipper Wallet 7.jpeg",
+      "images/Bags/Top zipper Wallet 8.jpeg",
+      "images/Bags/Top zipper Wallet 9.jpeg",
+      "images/Bags/Top zipper Wallet 10.jpeg",
+      "images/Bags/Top zipper Wallet 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>Louis Vuitton Brand Small Top Zipper Wallet with Cardholder</b><br><br><b>Size:</b> Small & Decent Size<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Colors:</b> Black 🖤, Brown 🤎<br><b>Note:</b> Watch Video for Inner Settings"
+  }
+
 
 
 ];
