@@ -1615,6 +1615,28 @@ const products = [
     description:
       "<b>R1S-L 3-in-1 Selfie Stick</b><br>*Tripod & Stand Function <br>*  360° Rotation <br>* Extendable Up to 70cm <br>* Adjustable Phone Holder <br>* Stable Tripod Base & Optional Bluetooth Remote with Built in LED Light (Box Pack)"
   }
+,
+  {
+    id: 86,
+
+    title: "WINTER ARRIVAL",
+
+    price: 3000,
+
+    category: "Clothings",
+
+    images: [
+      "images/Clothing/WINTER ARRIVAL 1.jpeg",
+      "images/Clothing/WINTER ARRIVAL 2.jpeg",
+      "images/Clothing/WINTER ARRIVAL 3.jpeg",
+      "images/Clothing/WINTER ARRIVAL 4.jpeg",
+      "images/Clothing/WINTER ARRIVAL 5.jpeg",
+      "images/Clothing/WINTER ARRIVAL 6.jpeg",
+    ],
+
+    description:
+      "<b>High Neck Style Side Chalk Open Rib Long Shirt With Trouser Snow Fall Rib 2Pcs</b><br><br><b>Quality:</b> Premium Fresh Quality<br><b>Fabric:</b> Rib<br><b>Chest:</b> 21 / 22<br><b>Long Shirt Length:</b> 51 / 52<br><b>Sleeve Length:</b> 21 / 22<br><b>Trouser Length:</b> 39 / 40"
+  }
 
 
 
