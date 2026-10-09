@@ -2571,6 +2571,23 @@ const products = [
     description:
       "<b>IMPRESSION OF AZZARO WANTED</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
   }
+  ,
+
+
+{
+    id: 122,
+
+    title: "OFFICE FOR WOMEN EKH",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>OFFICE FOR WOMEN EKH</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+  }
 
 
 ];
