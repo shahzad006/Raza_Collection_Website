@@ -2452,6 +2452,37 @@ const products = [
       "<b>Customised Armani Couple Watch ⌚</b><br><br><b>Box:</b> With Normal Box<br><b>Colors:</b> Black, Brown, Blue<br><b>Making Time:</b> 1 to 3 Working Days<br><b>Single Price:</b> Rs. 1100/- with Normal Box<br><b>Pair Price:</b> Rs. 1650/- with Normal Box<br><b>Customization:</b> Face Wali Picture Bhi Lag Jayegi"
   }
   
+  ,
+
+  {
+    id: 116,
+
+    title: "New Stylish Urdu Letter Design name customized Locket",
+
+    price: 900,
+
+    category: "Jewelry",
+
+    images: [
+      "images/Jewelry/Jewelry 1.jpeg",
+      "images/Jewelry/Jewelry 2.jpeg",
+      "images/Jewelry/Jewelry 3.jpeg",
+      "images/Jewelry/Jewelry 4.jpeg",
+      "images/Jewelry/Jewelry 5.jpeg",
+      "images/Jewelry/Jewelry 6.jpeg",
+      "images/Jewelry/Jewelry 7.jpeg",
+      "images/Jewelry/Jewelry 8.jpeg",
+      "images/Jewelry/Jewelry 9.jpeg",
+      "images/Jewelry/Jewelry 10.jpeg",
+      "images/Jewelry/Jewelry 11.jpeg",
+      "images/Jewelry/Jewelry 12.jpeg",
+      
+    ],
+
+    description:
+      "<b>H.M Customised Urdu Letter Name Locket</b><br><br><b>Design:</b> New Stylish Urdu Letter Design<br><b>Customization:</b> Name Customised Locket<br><b>Colors:</b> Golden & Silver<br><b>Making Time:</b> 3 to 4 Working Days<br><b>Note:</b> Open Pictures Are for Reference. Stone Quantity May Vary Slightly in Each Piece, Which Is Normal. Every Piece May Have Minor Differences."
+  }
+  
 
 
 
