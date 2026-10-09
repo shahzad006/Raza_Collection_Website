@@ -2483,8 +2483,23 @@ const products = [
       "<b>H.M Customised Urdu Letter Name Locket</b><br><br><b>Design:</b> New Stylish Urdu Letter Design<br><b>Customization:</b> Name Customised Locket<br><b>Colors:</b> Golden & Silver<br><b>Making Time:</b> 3 to 4 Working Days<br><b>Note:</b> Open Pictures Are for Reference. Stone Quantity May Vary Slightly in Each Piece, Which Is Normal. Every Piece May Have Minor Differences."
   }
   
+  ,
 
 
+{
+    id: 117,
+
+    title: "IMPRESSION OF TERE DE HERMES",
+
+    price: 1400,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF TERE DE HERMES</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+  }
 
 
 ];
