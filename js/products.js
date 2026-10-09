@@ -2500,6 +2500,23 @@ const products = [
     description:
       "<b>IMPRESSION OF TERE DE HERMES</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
   }
+  ,
+
+
+{
+    id: 118,
+
+    title: "IMPRESSION OF VOCAL",
+
+    price: 1400,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF VOCAL</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+  }
 
 
 ];
