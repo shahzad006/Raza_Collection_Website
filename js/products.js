@@ -2554,6 +2554,24 @@ const products = [
       "<b>IMPRESSION OF YSL Y</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
   }
 
+  ,
+
+
+{
+    id: 121,
+
+    title: "IMPRESSION OF AZZARO WANTED",
+
+    price: 1300,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF AZZARO WANTED</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+  }
+
 
 ];
 
