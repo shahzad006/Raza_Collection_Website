@@ -2491,14 +2491,14 @@ const products = [
 
     title: "IMPRESSION OF TERE DE HERMES",
 
-    price: 1400,
+    price: 1500,
 
     category: "Perfumes",
 
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>IMPRESSION OF TERE DE HERMES</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>IMPRESSION OF TERE DE HERMES</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
   ,
 
@@ -2508,14 +2508,14 @@ const products = [
 
     title: "IMPRESSION OF VOCAL",
 
-    price: 1400,
+    price: 1500,
 
     category: "Perfumes",
 
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>IMPRESSION OF VOCAL</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>IMPRESSION OF VOCAL</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
   ,
 
@@ -2525,14 +2525,14 @@ const products = [
 
     title: "IMPRESSION OF AXE CHOCOLATE",
 
-    price: 1300,
+    price: 1500,
 
     category: "Perfumes",
 
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>IMPRESSION OF AXE CHOCOLATE</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>IMPRESSION OF AXE CHOCOLATE</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
 
 
@@ -2544,14 +2544,14 @@ const products = [
 
     title: "IMPRESSION OF YSL Y",
 
-    price: 1400,
+    price: 1500,
 
     category: "Perfumes",
 
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>IMPRESSION OF YSL Y</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>IMPRESSION OF YSL Y</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
 
   ,
@@ -2562,14 +2562,14 @@ const products = [
 
     title: "IMPRESSION OF AZZARO WANTED",
 
-    price: 1300,
+    price: 1500,
 
     category: "Perfumes",
 
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>IMPRESSION OF AZZARO WANTED</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>IMPRESSION OF AZZARO WANTED</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
   ,
 
@@ -2586,7 +2586,7 @@ const products = [
     image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
 
     description:
-      "<b>OFFICE FOR WOMEN EKH</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>"
+      "<b>OFFICE FOR WOMEN EKH</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
 
 
