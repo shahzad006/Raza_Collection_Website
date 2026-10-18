@@ -2607,5 +2607,22 @@ const products = [
     description:
       "<b>IMPRESSION OF ZARAR</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+
+{
+    id: 124,
+
+    title: "IMPRESSION OF BLUE LADY",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF BLUE LADY</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
 
 ];
