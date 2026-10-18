@@ -2745,5 +2745,22 @@ const products = [
     description:
       "<b>IMPRESSION OF WHITE MUSHKA</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+
+{
+    id: 132,
+
+    title: "IMPRESSION OF DAVID",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF DAVID</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
 
 ];
