@@ -2711,5 +2711,22 @@ const products = [
     description:
       "<b>IMPRESSION OF POISON</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+
+{
+    id: 130,
+
+    title: "IMPRESSION OF ROYAL MARRIAGE",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF ROYAL MARRIAGE</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
 
 ];
