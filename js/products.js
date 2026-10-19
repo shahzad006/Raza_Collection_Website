@@ -2917,5 +2917,22 @@ const products = [
     description:
       "<b>IMPRESSION OF ISSEY MISTAKE</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+
+{
+    id: 142,
+
+    title: "IMPRESSION OF ISSEY HAGOBO",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF ISSEY HAGOBO</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
 
 ];
