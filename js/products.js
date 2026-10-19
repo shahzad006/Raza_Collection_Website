@@ -2832,5 +2832,22 @@ const products = [
     description:
       "<b>IMPRESSION OF JADORE</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+
+{
+    id: 137,
+
+    title: "IMPRESSION OF MIKAJA",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF MIKAJA</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
 
 ];
