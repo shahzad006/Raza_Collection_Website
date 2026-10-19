@@ -2762,6 +2762,8 @@ const products = [
     description:
       "<b>IMPRESSION OF DAVID</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+
+
   ,
 
 
@@ -2778,6 +2780,23 @@ const products = [
 
     description:
       "<b>IMPRESSION OF HUMAR</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
+  }
+  ,
+
+
+{
+    id: 134,
+
+    title: "IMPRESSION OF WHITE OUD",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Luxury Raza Collection Perfume Bottle.png",
+
+    description:
+      "<b>IMPRESSION OF WHITE OUD</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
 
 ];
