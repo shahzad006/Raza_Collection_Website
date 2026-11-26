@@ -2990,7 +2990,9 @@ const products = [
 
     description:
       "Ladies Gift Set Collection With Fancy Beautiful Zircon Digital Watch<br> TRENDING RANDOM  JEWELRY  Set With SAME JEWELRY BOX "
-  },
+  }
+  
+  ,
 
 
   
@@ -3009,6 +3011,27 @@ const products = [
 
     description:
       "S5000 PRO Combo Package 1x Ultra Series Watch ⌚<br>  With 7 Pair Of Belts+CHAIN Smart Watch And Charger (Premium Quality) (Perfect For Gifting ❤️) (Random Colours)"
+  }
+  
+  ,
+
+
+  
+  {
+    id: 147,
+
+    title: "MOST DEMANDING ROLEX",
+
+    price: 4500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/MOST DEMANDING ROLEX 1.jpeg",
+    image: "images/smart-devices/MOST DEMANDING ROLEX 2.jpeg",
+    image: "images/smart-devices/MOST DEMANDING ROLEX 3.jpeg",
+
+    description:
+      "MOST DEMANDING ROLEX<br>GOOD LOOKING DIAL <br>MASTER STEEL CROWN  LOCK <br> 2 DIFFERENT COLORS "
   }
   
   ,
