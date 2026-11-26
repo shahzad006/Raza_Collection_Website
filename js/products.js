@@ -3035,6 +3035,29 @@ const products = [
   }
   
   ,
+  
+  {
+    id: 148,
+
+    title: "POSTIF Collection",
+
+    price: 1600,
+
+    category: "Watches",
+
+    image: "images/smart-devices/POSTIF 1.jpeg",
+    image: "images/smart-devices/POSTIF 2.jpeg",
+    image: "images/smart-devices/POSTIF 3.jpeg",
+    image: "images/smart-devices/POSTIF 4.jpeg",
+    image: "images/smart-devices/POSTIF 5.jpeg",
+
+
+
+    description:
+      "POSTIF Collection<br>Couple Pair Watch <br>Metal Chain"
+  }
+  
+  ,
 
 
 ];
