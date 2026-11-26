@@ -2951,5 +2951,47 @@ const products = [
     description:
       "<b>IMPRESSION OF ISSEY DELICLA</b><br><br><b>Type:</b> Luxury Raza Collection Perfume Bottle<br>Size: 50 ML<br>"
   }
+  ,
+
+  
+  {
+    id: 144,
+
+    title: "R•W•D Ladies & Gents Couple Watch",
+
+    price: 2000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch 1.jpeg",
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch 2.jpeg",
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch 3.jpeg",
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch 4.jpeg",
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch 5.jpeg",
+
+    description:
+      "R•W•D Ladies & Gents Couple Watch<br> STRAP WATCH  <br> DAY & DATE  <br> LEATHER STRAP  <br> MASTER LOCK <br> COLOURS AVAILABLE"
+  },
+
+  ,
+
+  
+  {
+    id: 145,
+
+    title: "Ladies Gift",
+
+    price: 2000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Ladies Gift Set 1",
+    image: "images/smart-devices/Ladies Gift Set 2",
+    image: "images/smart-devices/Ladies Gift Set 3",
+
+    description:
+      "Ladies Gift Set Collection With Fancy Beautiful Zircon Digital Watch<br> TRENDING RANDOM  JEWELRY  Set With SAME JEWELRY BOX "
+  },
+
 
 ];
