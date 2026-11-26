@@ -3058,6 +3058,26 @@ const products = [
   }
   
   ,
+  {
+    id: 149,
+
+    title: "Rolex Date Just Collection",
+
+    price: 1600,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex Date 1.jpeg",
+    image: "images/smart-devices/Rolex Date 2.jpeg",
+    image: "images/smart-devices/Rolex Date 3.jpeg",
+
+
+
+    description:
+      "Rolex Date Just Collection<br>GOOD CHAIN QULITY"
+  }
+  
+  ,
 
 
 ];
