@@ -2985,9 +2985,9 @@ const products = [
 
     category: "Watches",
 
-    image: "images/smart-devices/Ladies Gift Set 1",
-    image: "images/smart-devices/Ladies Gift Set 2",
-    image: "images/smart-devices/Ladies Gift Set 3",
+    image: "images/smart-devices/Ladies Gift Set 1.jpeg",
+    image: "images/smart-devices/Ladies Gift Set 2.jpeg",
+    image: "images/smart-devices/Ladies Gift Set 3.jpeg",
 
     description:
       "Ladies Gift Set Collection With Fancy Beautiful Zircon Digital Watch<br> TRENDING RANDOM  JEWELRY  Set With SAME JEWELRY BOX "
