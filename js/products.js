@@ -2973,7 +2973,6 @@ const products = [
       "R•W•D Ladies & Gents Couple Watch<br> STRAP WATCH  <br> DAY & DATE  <br> LEATHER STRAP  <br> MASTER LOCK <br> COLOURS AVAILABLE"
   },
 
-  ,
 
   
   {
@@ -2992,7 +2991,7 @@ const products = [
     description:
       "Ladies Gift Set Collection With Fancy Beautiful Zircon Digital Watch<br> TRENDING RANDOM  JEWELRY  Set With SAME JEWELRY BOX "
   },
-  ,
+
 
   
   {
@@ -3004,13 +3003,15 @@ const products = [
 
     category: "Watches",
 
-    image: "images/smart-devices/S5000 PRO Combo.jpeg",
+    image: "images/smart-devices/S5000 PRO Combo 1.jpeg",
     image: "images/smart-devices/S5000 PRO Combo 2.jpeg",
     image: "images/smart-devices/S5000 PRO Combo 3.jpeg",
 
     description:
       "S5000 PRO Combo Package 1x Ultra Series Watch ⌚<br>  With 7 Pair Of Belts+CHAIN Smart Watch And Charger (Premium Quality) (Perfect For Gifting ❤️) (Random Colours)"
-  },
+  }
+  
+  ,
 
 
 ];
